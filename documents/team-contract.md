@@ -11,7 +11,7 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 1. Team name or project name. Plus full name and NetID of each of your team members.
   - White-Cheetah
   - Lauren Simons, LLS96
-
+  - Yiren Wang, YW679
 
 
 
