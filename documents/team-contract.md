@@ -9,6 +9,9 @@ You will need to learn to work in groups and resolve conflicts on your own. Thes
 **Your group contract/working agreement should probably include these elements. Feel free to add other terms, too.**
 
 1. Team name or project name. Plus full name and NetID of each of your team members.
+  - White-Cheetah
+  - Lauren Simons, LLS96
+
 
 
 
