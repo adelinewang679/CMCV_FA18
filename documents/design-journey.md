@@ -1,6 +1,6 @@
 # Project 4 - Design & Plan
 
-Your Team Name: [your team name]
+Your Team Name: White cheetahs
 
 ## Milestone 1: Design your Client's Site
 
@@ -16,7 +16,7 @@ Our client is Cornell Men's Club Volleyball.
 
 Current URL:
 http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
-  - Form page and Calendar page are inactive. 
+  - Form page and Calendar page are inactive.
 
 
 ### Client Needs & Wants/Requirements (Milestone 1)
@@ -69,11 +69,10 @@ Example:
 Example:
 - **Navigation**
   - Home
-  - Portfolio
-    - Websites
-    - Mobile Apps
-    - Tablets
-  - About Me
+  - Roster
+  - Schedule
+  - Achievements
+  - Photo Gallery
 
 - **Content** (List all the content corresponding to main navigation and sub-categories.)
   - *Portfolio*: list all the projects (as images) this client has worked on. When the image is hovered over, display a description of the project; add a search function to enable users search for specific projects;
