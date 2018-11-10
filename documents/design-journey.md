@@ -19,24 +19,18 @@ http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
   - Form page and Calendar page are inactive.
 
 Screenshots:
-<<<<<<< HEAD
-
-
-=======
 ![](home_page_screenshot.png)
 ![](about_screenshot.png)
 ![](events_screenshot.png)
 ![](news_screenshot.png)
 ![](pictures_screenshot.png)
 ![](contact_screenshot.png)
->>>>>>> be29b030beed434a563a64c64bbfecbe8c789ead
 
 ### Client Needs & Wants/Requirements (Milestone 1)
 
 #### Purpose & Content
 
 [Tell us the purpose of the website and what it is all about.]
-The purpose of the website is to primarily provide information to recruits (current Cornell students looking to join or athletes looking to come to Cornell). 
 
 #### Client Needs and Wants
 
@@ -62,8 +56,6 @@ Example:
 #### Target Audience(s)
 
 [Tell us about the specific audience(s) for this website.]
-The audience for this website is potential recruits for the team. There are two catagories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
-The audience also includes teams from other schools.
 
 #### Target Audience Needs
 
@@ -88,7 +80,7 @@ Example:
   - Home
   - Roster
   - Schedule
-  - News
+  - Achievements
   - Interest Form
   - Gallery
 
@@ -107,6 +99,38 @@ Example:
 [Include exploratory idea sketches of your website.]
 
 [Include sketches of your finalized design.]
+
+- PC Version
+
+Home(About)
+![](sketch_about.jpg)
+Roster
+![](sketch_roster.jpg)
+Schedule
+![](sketch_schedule.jpg)
+News
+![](sketch_news.jpg)
+Form
+![](sketch_form.jpg)
+Gallery
+![](sketch_gallery.jpg)
+
+- Mobile Version
+
+Home(About)
+![](sketch_m_about.jpg)
+Roster
+![](sketch_m_roster.jpg)
+Schedule
+![](sketch_m_schedule.jpg)
+News
+![](sketch_m_news.jpg)
+Form
+![](sketch_m_form.jpg)
+Gallery
+![](sketch_m_gallery.jpg)
+Menu(when menu button is selected)
+![](sketch_m_menu.jpg)
 
 #### Interactivity
 
