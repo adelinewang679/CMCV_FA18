@@ -12,7 +12,7 @@ Your Team Name: White cheetahs
 
 [NOTE: If you are redesigning an existing website, give us the current URL and some screenshots of the current site. Tell us how you plan to update the site in a significant way that meets the Project 4 requirements.]
 
-Our client is Cornell Men's Club Volleyball. Their goals for the website are to provide information about their team and to attract potential players. They want their website to showcase that they're competitive and have a fun team atmosphere. We're going to significantly change the entire design of the website, merge home and about pages, have a schedule page, a roster page, include a recruit interest form with interactivity and feedback, a photo gallery, and an achievements page. 
+Our client is Cornell Men's Club Volleyball. Their goals for the website are to provide information about their team and to attract potential players. They want their website to showcase that they're competitive and have a fun team atmosphere. We're going to significantly change the entire design of the website, merge home and about pages, have a schedule page, a roster page, include a recruit interest form with interactivity and feedback, a photo gallery, and an achievements page.
 
 Current URL:
 http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
@@ -54,6 +54,8 @@ Example:
 #### Target Audience(s)
 
 [Tell us about the specific audience(s) for this website.]
+The audience for this website is potential recruits for the team. There are two catagories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
+The audience also includes teams from other schools.
 
 #### Target Audience Needs
 
@@ -78,7 +80,7 @@ Example:
   - Home
   - Roster
   - Schedule
-  - Achievements
+  - News
   - Interest Form
   - Gallery
 
