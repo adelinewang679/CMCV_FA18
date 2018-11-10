@@ -17,12 +17,6 @@ Our client is Cornell Men's Club Volleyball.
 Current URL:
 http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
   - Form page and Calendar page are inactive.
-<<<<<<< HEAD
-
-Screenshots:
-
-=======
->>>>>>> 658d738456247679f67dd46b955e831d2f0c2290
 
 
 ### Client Needs & Wants/Requirements (Milestone 1)
@@ -75,14 +69,14 @@ Example:
 Example:
 - **Navigation**
   - Home
-  - Portfolio
-    - Websites
-    - Mobile Apps
-    - Tablets
-  - About Me
+  - Roster
+  - Schedule
+  - Achievements
+  - Interest Form
+  - Gallery
 
 - **Content** (List all the content corresponding to main navigation and sub-categories.)
-  - *Portfolio*: list all the projects (as images) this client has worked on. When the image is hovered over, display a description of the project; add a search function to enable users search for specific projects;
+  - *Home*: This page will display a photo of the team, ;
   - *Websites*: showcase all the websites designed by the client, with thumbnail images and a brief description for each design;
   - *Mobile Apps*: showcase all the mobile apps designed by the client, with thumbnail images and a brief description for each design;
   - *Tablets*: showcase all the tablet applications designed by the client, with thumbnail images and a brief description for each design;
@@ -101,7 +95,12 @@ Example:
 
 [What interactive features will your site have? Describe how the interactivity connects with the needs of the clients/target audience.]
 
-For our
+For our website, we are mainly interacting with our target audiences using an interest form. It meets the needs of the clients because they need to recruit new members from current Cornell students and high school volleyball players who might come to Cornell. It serves our target audiences because they might want to learn more about the club and express interest.
+
+We also intend to create responsive navigation bars and roster. When the user clicks on a button in the navigation bar, it will be highlighted. Also the button whose title corresponding to the current page will remain highlighted when the user is browsing that page to remind them of where they are.
+
+For our roster, when the user hovers over a photo of a member, the position of that person will be shown. Our client wants to make sure that the target audiences know their positions. With this design we plan to emphasize positions.
+
 #### Additional Comments (Milestone 1)
 
 [If you feel like you haven't fully explained your design choices, or if you want to explain some other functions in your site (such as special design decisions that might not meet the Project 4 requirements), you can use this space to justify your design choices or ask other questions about the project and process.]
