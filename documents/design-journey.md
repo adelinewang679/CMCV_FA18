@@ -36,6 +36,7 @@ Screenshots:
 #### Purpose & Content
 
 [Tell us the purpose of the website and what it is all about.]
+The purpose of the website is to primarily provide information to recruits (current Cornell students looking to join or athletes looking to come to Cornell). 
 
 #### Client Needs and Wants
 
@@ -61,6 +62,8 @@ Example:
 #### Target Audience(s)
 
 [Tell us about the specific audience(s) for this website.]
+The audience for this website is potential recruits for the team. There are two catagories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
+The audience also includes teams from other schools.
 
 #### Target Audience Needs
 
@@ -85,7 +88,7 @@ Example:
   - Home
   - Roster
   - Schedule
-  - Achievements
+  - News
   - Interest Form
   - Gallery
 
