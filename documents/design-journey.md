@@ -63,6 +63,7 @@ The purpose of the website is to primarily provide information to recruits (curr
 #### Target Audience(s)
 
 [Tell us about the specific audience(s) for this website.]
+
 The audience for this website is potential recruits for the team. There are two categories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
 The audience also includes teams from other schools who may be sussing out the competition.
 
@@ -99,7 +100,7 @@ Example:
   - Home
   - Roster
   - Schedule
-  - Achievements
+  - News
   - Interest Form
   - Gallery
 
@@ -161,6 +162,8 @@ Menu(when menu button is selected)
 For our website, we are mainly interacting with our target audiences using an interest form. It meets the needs of the clients because they need to recruit new members from current Cornell students and high school volleyball players who might come to Cornell. It serves our target audiences because they might want to learn more about the club and express interest.
 
 We also intend to create responsive navigation bars and roster. When the user clicks on a button in the navigation bar, it will be highlighted. Also the button whose title corresponding to the current page will remain highlighted when the user is browsing that page to remind them of where they are.
+
+Specifically for the mobile version, the navigation bars will be hidden and replaced by the menu icon, allowing the screen to display more contents of the page. If the user selects the icon, then the menu will appear containing all the navigation tabs.
 
 For our roster, when the user hovers over a photo of a member, the position of that person will be shown. Our client wants to make sure that the target audiences know their positions. With this design we plan to emphasize positions.
 
