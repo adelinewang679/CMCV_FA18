@@ -70,6 +70,7 @@ Example:
 - **Navigation**
   - Home
   - Roster
+  - Interest Form
   - Schedule
   - Achievements
   - Photo Gallery
