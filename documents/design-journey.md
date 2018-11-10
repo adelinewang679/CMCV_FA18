@@ -1,6 +1,6 @@
 # Project 4 - Design & Plan
 
-Your Team Name: [your team name]
+Your Team Name: white cheetah
 
 ## Milestone 1: Design your Client's Site
 
@@ -50,7 +50,7 @@ Example:
 #### Target Audience(s)
 
 [Tell us about the specific audience(s) for this website.]
-The audience for this website is potential recruits for the team. There are two catagories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
+The audience for this website is potential recruits for the team. There are two categories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
 The audience also includes teams from other schools.
 
 #### Target Audience Needs
