@@ -19,7 +19,12 @@ http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
   - Form page and Calendar page are inactive.
 
 Screenshots:
-
+![](home_page_screenshot.png)
+![](about_screenshot.png)
+![](events_screenshot.png)
+![](news_screenshot.png)
+![](pictures_screenshot.png)
+![](contact_screenshot.png)
 
 ### Client Needs & Wants/Requirements (Milestone 1)
 
