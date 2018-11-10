@@ -1,6 +1,6 @@
 # Project 4 - Design & Plan
 
-Your Team Name: white cheetah
+Your Team Name: White Cheetah
 
 ## Milestone 1: Design your Client's Site
 
@@ -51,17 +51,27 @@ Example:
 
 [Tell us about the specific audience(s) for this website.]
 The audience for this website is potential recruits for the team. There are two categories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
-The audience also includes teams from other schools.
+The audience also includes teams from other schools who may be sussing out the competition.
 
 #### Target Audience Needs
 
 [What are the needs of your target audience(s)? Note that these are probably *not* the needs of your client.]
+
+Our target audience needs to make the decision wether they want to be part of the team or not. In order to decide this, we need to give the user a holistic, 360 view of the team. They need to know the commitment level, personality, vision, and past looks like of the team.
+The other section of the target audience will most likely be looking more at achievements and team information. They will want to see what they team looks like at this current time and who they should look out for. They may also be trying to see how they played against other teams in the past.
 
 ### Initial Design (Milestone 1)
 
 #### Content
 
 [Place your content in the **content** folder. NOT in the documents folder.]
+
+What we need from the client:
+  - All the info and pictures of the team for the roster
+  - Images for Gallery
+  - Email to send form to
+  - Schedule for this season and next
+  - Past achievements
 
 [Note any content (e.g., text, image) that you need to make/get from the client here.]
 
@@ -81,14 +91,17 @@ Example:
   - Gallery
 
 - **Content** (List all the content corresponding to main navigation and sub-categories.)
-  - *Home*: This page will display a photo of the team, ;
-  - *Websites*: showcase all the websites designed by the client, with thumbnail images and a brief description for each design;
-  - *Mobile Apps*: showcase all the mobile apps designed by the client, with thumbnail images and a brief description for each design;
-  - *Tablets*: showcase all the tablet applications designed by the client, with thumbnail images and a brief description for each design;
+  - *Home*: This page will showcase a photo of the team, a brief intro of the team, The contact info of the president, and lastly notable achievements.;
+  - *Roster*: This page will showcase all of the team members. This includes their photo, name, height, year, and position. It will also highlight those who are in leadership positions ;
+  - *Schedule*: This page will showcase the tournament and practice schedule for each season.;
+  - *News*: This page will showcase highlights of past tournaments as well as results.;
+  - *Interest Form*: This page will provide a platform for those interested to contact the team.;
+  - *Gallery*: This page will display more images of the team playing;
 
 - **Process**
-  - [photo of card sort]
-  - [explanation of how your come up with your content organization and navigation.]
+  - Discussed in detail with client about current navigation and what its flaws are.
+  - Looked at other sports teams navigations, picked categories we thought would pertain to the team.
+  - Discussed and sketched what pages would look like loosely. Sketched more pages than we planned to include and saw which headers could be combined given similar information (for example we originally had a "achievements" page and we decided to merge with about us and instead add and News page).
 
 #### Sketches
 
