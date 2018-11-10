@@ -1,6 +1,6 @@
 # Project 4 - Design & Plan
 
-Your Team Name: White cheetahs
+Your Team Name: [your team name]
 
 ## Milestone 1: Design your Client's Site
 
@@ -18,13 +18,6 @@ Current URL:
 http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
   - Form page and Calendar page are inactive.
 
-Screenshots:
-![](home_page_screenshot.png)
-![](about_screenshot.png)
-![](events_screenshot.png)
-![](news_screenshot.png)
-![](pictures_screenshot.png)
-![](contact_screenshot.png)
 
 ### Client Needs & Wants/Requirements (Milestone 1)
 
@@ -110,6 +103,12 @@ Example:
 #### Interactivity
 
 [What interactive features will your site have? Describe how the interactivity connects with the needs of the clients/target audience.]
+
+For our website, we are mainly interacting with our target audiences using an interest form. It meets the needs of the clients because they need to recruit new members from current Cornell students and high school volleyball players who might come to Cornell. It serves our target audiences because they might want to learn more about the club and express interest.
+
+We also intend to create responsive navigation bars and roster. When the user clicks on a button in the navigation bar, it will be highlighted. Also the button whose title corresponding to the current page will remain highlighted when the user is browsing that page to remind them of where they are.
+
+For our roster, when the user hovers over a photo of a member, the position of that person will be shown. Our client wants to make sure that the target audiences know their positions. With this design we plan to emphasize positions.
 
 #### Additional Comments (Milestone 1)
 
