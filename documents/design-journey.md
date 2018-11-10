@@ -31,6 +31,7 @@ Screenshots:
 #### Purpose & Content
 
 [Tell us the purpose of the website and what it is all about.]
+The purpose of the website is to primarily provide information to recruits (current Cornell students looking to join or athletes looking to come to Cornell). 
 
 #### Client Needs and Wants
 
