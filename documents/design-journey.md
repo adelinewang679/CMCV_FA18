@@ -31,6 +31,7 @@ Screenshots:
 #### Purpose & Content
 
 [Tell us the purpose of the website and what it is all about.]
+The purpose of the website is to primarily provide information to recruits (current Cornell students looking to join or athletes looking to come to Cornell). 
 
 #### Client Needs and Wants
 
@@ -48,6 +49,8 @@ Example:
 #### Client Meeting Notes
 
 [By this point, you have met once with your client to discuss all their requirements. Include your notes from the meeting, an email they sent you, or whatever you used to keep track of what was discussed at the meeting. Include these artifacts here.]
+
+![](meeting1_notes.jpeg)
 
 ### Target Audience (Milestone 1)
 
