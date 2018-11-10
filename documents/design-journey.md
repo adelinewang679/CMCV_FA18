@@ -17,6 +17,12 @@ Our client is Cornell Men's Club Volleyball.
 Current URL:
 http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
   - Form page and Calendar page are inactive.
+<<<<<<< HEAD
+
+Screenshots:
+
+=======
+>>>>>>> 658d738456247679f67dd46b955e831d2f0c2290
 
 
 ### Client Needs & Wants/Requirements (Milestone 1)
