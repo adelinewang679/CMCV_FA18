@@ -12,7 +12,7 @@ Your Team Name: White cheetahs
 
 [NOTE: If you are redesigning an existing website, give us the current URL and some screenshots of the current site. Tell us how you plan to update the site in a significant way that meets the Project 4 requirements.]
 
-Our client is Cornell Men's Club Volleyball.
+Our client is Cornell Men's Club Volleyball. Their goals for the website are to provide information about their team and to attract potential players. They want their website to showcase that they're competitive and have a fun team atmosphere. We're going to significantly change the entire design of the website, merge home and about pages, have a schedule page, a roster page, include a recruit interest form with interactivity and feedback, a photo gallery, and an achievements page. 
 
 Current URL:
 http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
