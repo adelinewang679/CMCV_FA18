@@ -12,7 +12,7 @@ Your Team Name: [your team name]
 
 [NOTE: If you are redesigning an existing website, give us the current URL and some screenshots of the current site. Tell us how you plan to update the site in a significant way that meets the Project 4 requirements.]
 
-Our client is Cornell Men's Club Volleyball.
+Our client is Cornell Men's Club Volleyball. Their goals for the website are to provide information about their team and to attract potential players. They want their website to showcase that they're competitive and have a fun team atmosphere. We're going to significantly change the entire design of the website, merge home and about pages, have a schedule page, a roster page, include a recruit interest form with interactivity and feedback, a photo gallery, and an achievements page.
 
 Current URL:
 http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
@@ -24,6 +24,7 @@ http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
 #### Purpose & Content
 
 [Tell us the purpose of the website and what it is all about.]
+The purpose of the website is to primarily provide information to recruits (current Cornell students looking to join or athletes looking to come to Cornell).
 
 #### Client Needs and Wants
 
@@ -42,11 +43,15 @@ Example:
 
 [By this point, you have met once with your client to discuss all their requirements. Include your notes from the meeting, an email they sent you, or whatever you used to keep track of what was discussed at the meeting. Include these artifacts here.]
 
+![](meeting1_notes.jpeg)
+
 ### Target Audience (Milestone 1)
 
 #### Target Audience(s)
 
 [Tell us about the specific audience(s) for this website.]
+The audience for this website is potential recruits for the team. There are two catagories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
+The audience also includes teams from other schools.
 
 #### Target Audience Needs
 
@@ -71,7 +76,7 @@ Example:
   - Home
   - Roster
   - Schedule
-  - Achievements
+  - News
   - Interest Form
   - Gallery
 
