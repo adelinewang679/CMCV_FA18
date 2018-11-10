@@ -1,6 +1,6 @@
 # Project 4 - Design & Plan
 
-Your Team Name: White cheetahs
+Your Team Name: [your team name]
 
 ## Milestone 1: Design your Client's Site
 
@@ -75,10 +75,11 @@ Example:
 Example:
 - **Navigation**
   - Home
-  - Roster
-  - Schedule
-  - Achievements
-  - Photo Gallery
+  - Portfolio
+    - Websites
+    - Mobile Apps
+    - Tablets
+  - About Me
 
 - **Content** (List all the content corresponding to main navigation and sub-categories.)
   - *Portfolio*: list all the projects (as images) this client has worked on. When the image is hovered over, display a description of the project; add a search function to enable users search for specific projects;
@@ -100,6 +101,7 @@ Example:
 
 [What interactive features will your site have? Describe how the interactivity connects with the needs of the clients/target audience.]
 
+For our
 #### Additional Comments (Milestone 1)
 
 [If you feel like you haven't fully explained your design choices, or if you want to explain some other functions in your site (such as special design decisions that might not meet the Project 4 requirements), you can use this space to justify your design choices or ask other questions about the project and process.]
