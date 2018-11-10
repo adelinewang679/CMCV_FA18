@@ -1,6 +1,6 @@
 # Project 4 - Design & Plan
 
-Your Team Name: [your team name]
+Your Team Name: White Cheetah
 
 ## Milestone 1: Design your Client's Site
 
@@ -66,6 +66,13 @@ The other section of the target audience will most likely be looking more at ach
 
 [Place your content in the **content** folder. NOT in the documents folder.]
 
+What we need from the client:
+  - All the info and pictures of the team for the roster
+  - Images for Gallery
+  - Email to send form to
+  - Schedule for this season and next
+  - Past achievements
+
 [Note any content (e.g., text, image) that you need to make/get from the client here.]
 
 #### Content Organization, Information Architecture, and Navigation
@@ -84,10 +91,12 @@ Example:
   - Gallery
 
 - **Content** (List all the content corresponding to main navigation and sub-categories.)
-  - *Home*: This page will display a photo of the team, ;
-  - *Websites*: showcase all the websites designed by the client, with thumbnail images and a brief description for each design;
-  - *Mobile Apps*: showcase all the mobile apps designed by the client, with thumbnail images and a brief description for each design;
-  - *Tablets*: showcase all the tablet applications designed by the client, with thumbnail images and a brief description for each design;
+  - *Home*: This page will showcase a photo of the team, a brief intro of the team, The contact info of the president, and lastly notable achievements.;
+  - *Roster*: This page will showcase all of the team members. This includes their photo, name, height, year, and position. It will also highlight those who are in leadership positions ;
+  - *Schedule*: This page will showcase the tournament and practice schedule for each season.;
+  - *News*: This page will showcase highlights of past tournaments as well as results.;
+  - *Interest Form*: This page will provide a platform for those interested to contact the team.;
+  - *Gallery*: This page will display more images of the team playing;
 
 - **Process**
   - Discussed in detail with client about current navigation and what its flaws are.
