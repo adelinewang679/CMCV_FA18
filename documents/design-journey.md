@@ -79,10 +79,11 @@ Example:
   - Roster
   - Schedule
   - Achievements
-  - Photo Gallery
+  - Interest Form
+  - Gallery
 
 - **Content** (List all the content corresponding to main navigation and sub-categories.)
-  - *Portfolio*: list all the projects (as images) this client has worked on. When the image is hovered over, display a description of the project; add a search function to enable users search for specific projects;
+  - *Home*: This page will display a photo of the team, ;
   - *Websites*: showcase all the websites designed by the client, with thumbnail images and a brief description for each design;
   - *Mobile Apps*: showcase all the mobile apps designed by the client, with thumbnail images and a brief description for each design;
   - *Tablets*: showcase all the tablet applications designed by the client, with thumbnail images and a brief description for each design;
