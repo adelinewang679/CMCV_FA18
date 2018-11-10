@@ -24,21 +24,34 @@ http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
 #### Purpose & Content
 
 [Tell us the purpose of the website and what it is all about.]
-The purpose of the website is to primarily provide information to recruits (current Cornell students looking to join or athletes looking to come to Cornell).
+The purpose of the website is to primarily provide information to recruits (current Cornell students looking to join or athletes looking to come to Cornell).However, other possible audiences include people who play volleyball at other schools.
 
 #### Client Needs and Wants
 
 [Collect your client's needs and wants for the website. Come up with several appropriate design ideas on how those needs may be met. In the **Memo** field, justify your ideas and add any additional comments you have. There is no specific number of needs required for this, but you need enough to do the job.]
 
-Example:
+
 - Needs/Wants #1
   - **Needs and Wants** [What does your client and audience need and want?]
-    - Client wants to cater to people who speak different languages.
+    - Client wants to be notified of potential recruits.
   - **Design Ideas and Choices** [How will you meet those needs and wants?]
-    - Create web-pages manually in multiple languages.
+    - Have a recruit form as a separate page, so the client can gage interest. Form will send an email to the client with the information.
   - **Memo** [Justify your decisions; additional notes.]
-    - Create multiple pages in multiple languages manually.
-
+    - Client will be able to keep track prospects in an easy way.
+- Needs/Wants #2
+  - **Needs and Wants** [What does your client and audience need and want?]
+    - Client wants to keep fans/alumni/interested players up to date on team's achievements
+  - **Design Ideas and Choices** [How will you meet those needs and wants?]
+    - Have a separate achievements tab.
+  - **Memo** [Justify your decisions; additional notes.]
+      - Users will be able to see how good the team is and what they have been doing.
+- Needs/Wants #3
+  - **Needs and Wants** [What does your client and audience need and want?]
+      - Client wants fans at their games
+  - **Design Ideas and Choices** [How will you meet those needs and wants?]
+      - Include a schedule tab.
+  - **Memo** [Justify your decisions; additional notes.]
+      - User's will be able to see when the teams tournaments are and might come watch.
 #### Client Meeting Notes
 
 [By this point, you have met once with your client to discuss all their requirements. Include your notes from the meeting, an email they sent you, or whatever you used to keep track of what was discussed at the meeting. Include these artifacts here.]
@@ -50,6 +63,7 @@ Example:
 #### Target Audience(s)
 
 [Tell us about the specific audience(s) for this website.]
+
 The audience for this website is potential recruits for the team. There are two categories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
 The audience also includes teams from other schools who may be sussing out the competition.
 
@@ -109,6 +123,38 @@ Example:
 
 [Include sketches of your finalized design.]
 
+- PC Version
+
+Home(About)
+![](sketch_about.jpg)
+Roster
+![](sketch_roster.jpg)
+Schedule
+![](sketch_schedule.jpg)
+News
+![](sketch_news.jpg)
+Form
+![](sketch_form.jpg)
+Gallery
+![](sketch_gallery.jpg)
+
+- Mobile Version
+
+Home(About)
+![](sketch_m_about.jpg)
+Roster
+![](sketch_m_roster.jpg)
+Schedule
+![](sketch_m_schedule.jpg)
+News
+![](sketch_m_news.jpg)
+Form
+![](sketch_m_form.jpg)
+Gallery
+![](sketch_m_gallery.jpg)
+Menu(when menu button is selected)
+![](sketch_m_menu.jpg)
+
 #### Interactivity
 
 [What interactive features will your site have? Describe how the interactivity connects with the needs of the clients/target audience.]
@@ -116,6 +162,8 @@ Example:
 For our website, we are mainly interacting with our target audiences using an interest form. It meets the needs of the clients because they need to recruit new members from current Cornell students and high school volleyball players who might come to Cornell. It serves our target audiences because they might want to learn more about the club and express interest.
 
 We also intend to create responsive navigation bars and roster. When the user clicks on a button in the navigation bar, it will be highlighted. Also the button whose title corresponding to the current page will remain highlighted when the user is browsing that page to remind them of where they are.
+
+Specifically for the mobile version, the navigation bars will be hidden and replaced by the menu icon, allowing the screen to display more contents of the page. If the user selects the icon, then the menu will appear containing all the navigation tabs.
 
 For our roster, when the user hovers over a photo of a member, the position of that person will be shown. Our client wants to make sure that the target audiences know their positions. With this design we plan to emphasize positions.
 
