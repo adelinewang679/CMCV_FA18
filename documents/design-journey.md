@@ -1,6 +1,6 @@
 # Project 4 - Design & Plan
 
-Your Team Name: White cheetahs
+Your Team Name: White Cheetah
 
 ## Milestone 1: Design your Client's Site
 
@@ -18,33 +18,40 @@ Current URL:
 http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
   - Form page and Calendar page are inactive.
 
-Screenshots:
-![](home_page_screenshot.png)
-![](about_screenshot.png)
-![](events_screenshot.png)
-![](news_screenshot.png)
-![](pictures_screenshot.png)
-![](contact_screenshot.png)
 
 ### Client Needs & Wants/Requirements (Milestone 1)
 
 #### Purpose & Content
 
 [Tell us the purpose of the website and what it is all about.]
+The purpose of the website is to primarily provide information to recruits (current Cornell students looking to join or athletes looking to come to Cornell).However, other possible audiences include people who play volleyball at other schools.
 
 #### Client Needs and Wants
 
 [Collect your client's needs and wants for the website. Come up with several appropriate design ideas on how those needs may be met. In the **Memo** field, justify your ideas and add any additional comments you have. There is no specific number of needs required for this, but you need enough to do the job.]
 
-Example:
+
 - Needs/Wants #1
   - **Needs and Wants** [What does your client and audience need and want?]
-    - Client wants to cater to people who speak different languages.
+    - Client wants to be notified of potential recruits.
   - **Design Ideas and Choices** [How will you meet those needs and wants?]
-    - Create web-pages manually in multiple languages.
+    - Have a recruit form as a separate page, so the client can gage interest. Form will send an email to the client with the information.
   - **Memo** [Justify your decisions; additional notes.]
-    - Create multiple pages in multiple languages manually.
-
+    - Client will be able to keep track prospects in an easy way.
+- Needs/Wants #2
+  - **Needs and Wants** [What does your client and audience need and want?]
+    - Client wants to keep fans/alumni/interested players up to date on team's achievements
+  - **Design Ideas and Choices** [How will you meet those needs and wants?]
+    - Have a separate achievements tab.
+  - **Memo** [Justify your decisions; additional notes.]
+      - Users will be able to see how good the team is and what they have been doing.
+- Needs/Wants #3
+  - **Needs and Wants** [What does your client and audience need and want?]
+      - Client wants fans at their games
+  - **Design Ideas and Choices** [How will you meet those needs and wants?]
+      - Include a schedule tab.
+  - **Memo** [Justify your decisions; additional notes.]
+      - User's will be able to see when the teams tournaments are and might come watch.
 #### Client Meeting Notes
 
 [By this point, you have met once with your client to discuss all their requirements. Include your notes from the meeting, an email they sent you, or whatever you used to keep track of what was discussed at the meeting. Include these artifacts here.]
@@ -56,16 +63,28 @@ Example:
 #### Target Audience(s)
 
 [Tell us about the specific audience(s) for this website.]
+The audience for this website is potential recruits for the team. There are two categories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
+The audience also includes teams from other schools who may be sussing out the competition.
 
 #### Target Audience Needs
 
 [What are the needs of your target audience(s)? Note that these are probably *not* the needs of your client.]
+
+Our target audience needs to make the decision wether they want to be part of the team or not. In order to decide this, we need to give the user a holistic, 360 view of the team. They need to know the commitment level, personality, vision, and past looks like of the team.
+The other section of the target audience will most likely be looking more at achievements and team information. They will want to see what they team looks like at this current time and who they should look out for. They may also be trying to see how they played against other teams in the past.
 
 ### Initial Design (Milestone 1)
 
 #### Content
 
 [Place your content in the **content** folder. NOT in the documents folder.]
+
+What we need from the client:
+  - All the info and pictures of the team for the roster
+  - Images for Gallery
+  - Email to send form to
+  - Schedule for this season and next
+  - Past achievements
 
 [Note any content (e.g., text, image) that you need to make/get from the client here.]
 
@@ -85,14 +104,17 @@ Example:
   - Gallery
 
 - **Content** (List all the content corresponding to main navigation and sub-categories.)
-  - *Home*: This page will display a photo of the team, ;
-  - *Websites*: showcase all the websites designed by the client, with thumbnail images and a brief description for each design;
-  - *Mobile Apps*: showcase all the mobile apps designed by the client, with thumbnail images and a brief description for each design;
-  - *Tablets*: showcase all the tablet applications designed by the client, with thumbnail images and a brief description for each design;
+  - *Home*: This page will showcase a photo of the team, a brief intro of the team, The contact info of the president, and lastly notable achievements.;
+  - *Roster*: This page will showcase all of the team members. This includes their photo, name, height, year, and position. It will also highlight those who are in leadership positions ;
+  - *Schedule*: This page will showcase the tournament and practice schedule for each season.;
+  - *News*: This page will showcase highlights of past tournaments as well as results.;
+  - *Interest Form*: This page will provide a platform for those interested to contact the team.;
+  - *Gallery*: This page will display more images of the team playing;
 
 - **Process**
-  - [photo of card sort]
-  - [explanation of how your come up with your content organization and navigation.]
+  - Discussed in detail with client about current navigation and what its flaws are.
+  - Looked at other sports teams navigations, picked categories we thought would pertain to the team.
+  - Discussed and sketched what pages would look like loosely. Sketched more pages than we planned to include and saw which headers could be combined given similar information (for example we originally had a "achievements" page and we decided to merge with about us and instead add and News page).
 
 #### Sketches
 
@@ -135,6 +157,12 @@ Menu(when menu button is selected)
 #### Interactivity
 
 [What interactive features will your site have? Describe how the interactivity connects with the needs of the clients/target audience.]
+
+For our website, we are mainly interacting with our target audiences using an interest form. It meets the needs of the clients because they need to recruit new members from current Cornell students and high school volleyball players who might come to Cornell. It serves our target audiences because they might want to learn more about the club and express interest.
+
+We also intend to create responsive navigation bars and roster. When the user clicks on a button in the navigation bar, it will be highlighted. Also the button whose title corresponding to the current page will remain highlighted when the user is browsing that page to remind them of where they are.
+
+For our roster, when the user hovers over a photo of a member, the position of that person will be shown. Our client wants to make sure that the target audiences know their positions. With this design we plan to emphasize positions.
 
 #### Additional Comments (Milestone 1)
 
