@@ -12,6 +12,12 @@ Your Team Name: [your team name]
 
 [NOTE: If you are redesigning an existing website, give us the current URL and some screenshots of the current site. Tell us how you plan to update the site in a significant way that meets the Project 4 requirements.]
 
+Our client is Cornell Men's Club Volleyball.
+
+Current URL:
+http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
+  - Form page and Calendar page are inactive. 
+
 
 ### Client Needs & Wants/Requirements (Milestone 1)
 
