@@ -1,6 +1,6 @@
 # Project 4 - Design & Plan
 
-Your Team Name: White cheetahs
+Your Team Name: [your team name]
 
 ## Milestone 1: Design your Client's Site
 
@@ -12,19 +12,18 @@ Your Team Name: White cheetahs
 
 [NOTE: If you are redesigning an existing website, give us the current URL and some screenshots of the current site. Tell us how you plan to update the site in a significant way that meets the Project 4 requirements.]
 
-Our client is Cornell Men's Club Volleyball. Their goals for the website are to provide information about their team and to attract potential players. They want their website to showcase that they're competitive and have a fun team atmosphere. We're going to significantly change the entire design of the website, merge home and about pages, have a schedule page, a roster page, include a recruit interest form with interactivity and feedback, a photo gallery, and an achievements page. 
+Our client is Cornell Men's Club Volleyball.
 
 Current URL:
 http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
   - Form page and Calendar page are inactive.
+<<<<<<< HEAD
 
 Screenshots:
-![](home_page_screenshot.png)
-![](about_screenshot.png)
-![](events_screenshot.png)
-![](news_screenshot.png)
-![](pictures_screenshot.png)
-![](contact_screenshot.png)
+
+=======
+>>>>>>> 658d738456247679f67dd46b955e831d2f0c2290
+
 
 ### Client Needs & Wants/Requirements (Milestone 1)
 
@@ -76,10 +75,11 @@ Example:
 Example:
 - **Navigation**
   - Home
-  - Roster
-  - Schedule
-  - Achievements
-  - Photo Gallery
+  - Portfolio
+    - Websites
+    - Mobile Apps
+    - Tablets
+  - About Me
 
 - **Content** (List all the content corresponding to main navigation and sub-categories.)
   - *Portfolio*: list all the projects (as images) this client has worked on. When the image is hovered over, display a description of the project; add a search function to enable users search for specific projects;
@@ -101,6 +101,7 @@ Example:
 
 [What interactive features will your site have? Describe how the interactivity connects with the needs of the clients/target audience.]
 
+For our
 #### Additional Comments (Milestone 1)
 
 [If you feel like you haven't fully explained your design choices, or if you want to explain some other functions in your site (such as special design decisions that might not meet the Project 4 requirements), you can use this space to justify your design choices or ask other questions about the project and process.]
