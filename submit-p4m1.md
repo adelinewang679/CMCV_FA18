@@ -29,5 +29,5 @@ Note: **Forgetting to commit and push your work** before the deadline is not a v
 We affirm our awareness of the standards of the Cornell Code of Academic Integrity.
 
 [Each team member should sign by adding their name to the list.]
-- (example: Member1 Name - 12/2/2001)
+- Yiren Wang 11/11/2018
 - (example: Member2 Name - 11/30/2001)
