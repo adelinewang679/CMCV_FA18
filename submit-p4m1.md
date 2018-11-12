@@ -30,4 +30,4 @@ We affirm our awareness of the standards of the Cornell Code of Academic Integri
 
 [Each team member should sign by adding their name to the list.]
 - Yiren Wang 11/11/2018
-- (example: Member2 Name - 11/30/2001)
+- Jinju Ouck 11/11/2018
