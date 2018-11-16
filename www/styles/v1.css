@@ -24,24 +24,24 @@ h1 {
   padding: 20px;
 }
 
-nav {
+nav{
   padding: 30px 50px;
 }
 
 .menu {
   display: inline-block;
-  /* border setting is just for testing the layout, change it later */
-  border: 1px solid white;
-  padding: 10px;
   margin: 0 20px;
 }
 
 nav a{
+  border: 1px solid white;
+  /* border setting is just for testing the layout, change it later */
+  padding: 10px;
   color: white;
   text-decoration: none;
 }
 
-.menu:hover {
+.menu a:hover {
   /* interactivity demo, change the hover action later */
   background-color: rgba(256,256,256,0.3);
 }
