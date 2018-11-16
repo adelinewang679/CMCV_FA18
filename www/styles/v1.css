@@ -36,7 +36,7 @@ nav{
 nav a{
   border: 1px solid white;
   /* border setting is just for testing the layout, change it later */
-  padding: 10px;
+  padding: 7px 14px;
   color: white;
   text-decoration: none;
 }
