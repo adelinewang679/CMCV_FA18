@@ -42,8 +42,11 @@ nav a{
 }
 
 .menu:hover {
+  /* interactivity demo, change the hover action later */
   background-color: rgba(256,256,256,0.3);
 }
+
+/* COMMON CODE FOR ALL PAGES START */
 
 /* HEADER END */
 
@@ -66,3 +69,18 @@ h2 {
 }
 
 /* MAIN END */
+
+/* FOOTER START */
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 30px 20px;
+  background-color: #3b3b3b;
+  color: white;
+}
+
+/* FOOTER END */
+
+/* COMMON CODE FOR ALL PAGES END */
