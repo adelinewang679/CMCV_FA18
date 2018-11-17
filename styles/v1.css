@@ -71,7 +71,7 @@ h2 {
 /*Form*/
 form{
   text-align: center;
-  
+
 }
 
 button{
@@ -123,10 +123,26 @@ button{
   margin-top:10px;
 }
 
+/*Form End*/
 
+/*About Page*/
+#about_description_group{
+  width:800px;
+  margin: auto;
+  margin-bottom:100px;
+}
 
+#about_description1{
+  margin-bottom:20px;
+}
 
+#aboutImg{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
 
+/*About Page End*/
 
 
 
