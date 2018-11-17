@@ -178,6 +178,20 @@ For our roster, when the user hovers over a photo of a member, the position of t
 
 [Write your interactivity pseudocode here. Remember you must use two conditional statements.]
 
+if name is filled out, check to see if it's valid
+  if not valid, provide feedback message "Please provide name"
+
+if email is filled out, check to see if it's valid
+  if not valid, provide feedback message "Please provide a valid email"
+
+if year is filled out, check to see if it's valid
+  if not valid, provide feedback message "Please provide a valid year"
+
+if no checkbox filled out for position
+  provide feedback message "Please select a position"
+
+If message is filled out, check to see if it's valid
+  if not, provide feedback message "Please write your message here"
 Example:
 ```
 if today is a monday:
