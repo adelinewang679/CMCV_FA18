@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cornell Men's Club Volleyball</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="styles/v1.css">
+  <script src="scripts/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Cornell Men's Club Volleyball</h1>
+    </div>
+    <nav>
+      <ul>
+        <li class="menu"><a href = "index.html">About</a></li>
+        <li class="menu"><a href = "roster.html">Roster</a></li>
+        <li class="menu"><a href = "schedule.html">Schedule</a></li>
+        <li class="menu"><a href = "news.html">News</a></li>
+        <li class="menu"><a href = "form.html">Form</a></li>
+        <li class="menu"><a href = "gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="page_title">
+      <hr class="line"/>
+      <h2>Interest Form</h2>
+      <hr class="line"/>
+    </div>
+
+    <form id="feedback_form" method=POST action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
+      <!--NEED EMAIL THING-->
+
+      <div>
+      <label>Name: </label>
+      <input id="nameValue" type="text" name="Name" required/>
+      <p class="hidden" id=nameFeedback>**Please provide a valid name**</p>
+    </div>
+
+    <div>
+      <label>Email: </label>
+      <input id=email type="email" name="Email" required/>
+      <p class="hidden" id=emailFeedback>**Please provide a valid email**</p>
+    </div>
+
+    <div id=position_Options>
+      <p id="positionq">Position(s)</p>
+      <input id="Outside" type="checkbox" name="Positions(s):" value="Outside"/>
+      <label>Outside</label>
+      <input id="Rightside" type="checkbox" name="Positions(s)" value="Rightside"/>
+      <label>Rightside</label>
+      <input id="Middle" type="checkbox" name="Positions(s)" value="Middle" />
+      <label>Middle</label>
+      <input id="Setter" type="checkbox" name="Positions(s)" value="Setter" />
+      <label>Setter</label>
+      <input id="Libero/DS" type="checkbox" name="Positions(s)" value="Libero/DS" />
+      <label>Libero/DS</label>
+      <p class="hidden" id=dayFeedback>**Please check one of the options**</p>
+    </div>
+
+    </form>
+
+  </main>
+  <footer>
+    <!-- Sample Footer -->
+    <p> @Copyright: Cornell Men's Club Volleyball, White Cheetah Team - INFO1300 <p>
+  </footer>
+</body>
+</html>
