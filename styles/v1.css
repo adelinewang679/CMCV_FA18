@@ -73,9 +73,31 @@ form{
   text-align: center;
 }
 
+button{
+  margin: 20px;
+  margin-bottom: 100px;
+}
 
+#about_u{
+  display:block;
+  margin:auto;
+}
 
+.hidden{
+  display:none;
+}
 
+.feedback{
+  color: red;
+}
+
+#name_block{
+  margin: 20px;
+}
+
+#email_block{
+  margin: 20px;
+}
 
 
 
