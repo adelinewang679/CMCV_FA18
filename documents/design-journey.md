@@ -178,6 +178,8 @@ For our roster, when the user hovers over a photo of a member, the position of t
 
 [Write your interactivity pseudocode here. Remember you must use two conditional statements.]
 
+*Interest Form pseudocode**
+
 if name is filled out, check to see if it's valid
   if not valid, provide feedback message "Please provide name"
 
@@ -192,6 +194,18 @@ if no checkbox filled out for position
 
 If message is filled out, check to see if it's valid
   if not, provide feedback message "Please write your message here"
+
+Are all the required fields filled out after pressing submit?
+  If yes, email form to client
+
+*nav pseuocode*
+If tab on nav bar is clicked
+  highlight tab
+
+*roster psuedocode*
+if mouse is over roster picture
+  show positions
+  
 Example:
 ```
 if today is a monday:
