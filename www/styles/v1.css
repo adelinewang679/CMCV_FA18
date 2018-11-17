@@ -78,10 +78,7 @@ button{
   margin-bottom: 100px;
 }
 
-#about_u{
-  display:block;
-  margin:auto;
-}
+
 
 .hidden{
   display:none;
@@ -98,6 +95,37 @@ button{
 #email_block{
   margin: 20px;
 }
+
+#year{
+  margin:20px;
+}
+
+#position_Options{
+  text-align:left;
+  display:inline-block;
+
+}
+
+#positionq{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#about_u{
+  display:inline-block;
+  margin:auto;
+  margin-top:20px;
+}
+
+#aboutq{
+  display:inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-top:20px;
+}
+
+
+
 
 
 

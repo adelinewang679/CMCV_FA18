@@ -44,29 +44,44 @@
         <p class="hidden feedback">**Please provide a valid email**</p>
       </div>
 
-      <div id=position_Options>
-        <p id="positionq">Position(s):</p>
-        <input id="Outside" type="checkbox" name="Positions(s)" value="Outside"/>
-        <label>Outside</label>
-        <input id="Rightside" type="checkbox" name="Positions(s)" value="Rightside"/>
-        <label>Rightside</label>
-        <input id="Middle" type="checkbox" name="Positions(s)" value="Middle" />
-        <label>Middle</label>
-        <input id="Setter" type="checkbox" name="Positions(s)" value="Setter" />
-        <label>Setter</label>
-        <input id="Libero/DS" type="checkbox" name="Positions(s)" value="Libero/DS" />
-        <label>Libero/DS</label>
-        <p class="hidden feedback">**Please check one of the options**</p>
-      </div>
-
       <div id=year>
-        <label id="yearq">College Graduation Year:</label>
-        <input id="class_year" type="text" name="Class_year" required>
+        <label id="yearq">Class:</label>
+        <input id="class_year" type="number" name="Class_year" required>
         <p class="hidden feedback">**Please fill out graduation year**</p>
       </div>
+  <p id="positionq">Position(s):</p>
+
+      <div id=position_Options>
+
+          <div>
+          <input id="OH" type="checkbox" name="Positions(s)" value="Outside"/>
+          <label>Outside</label>
+        </div>
+        <div>
+          <input id="RS" type="checkbox" name="Positions(s)" value="Rightside"/>
+        <label>Rightside</label>
+      </div>
+        <div>
+          <input id="MB" type="checkbox" name="Positions(s)" value="Middle" />
+          <label>Middle</label>
+
+        </div>
+        <div>
+          <input id="S" type="checkbox" name="Positions(s)" value="Setter" />
+          <label>Setter</label>
+        </div>
+        <div>
+          <input id="L/DS" type="checkbox" name="Positions(s)" value="Libero/DS" />
+          <label>Libero/DS</label>
+        </div>
+        <p class="hidden feedback">**Please check one of the options**</p>
+
+      </div>
+
+
 
       <div>
-        <label id="message">Tell us about yourself:</label>
+        <label id="aboutq">Tell us about yourself:</label>
         <textarea id="about_u" rows="15" cols="80" name="About" placeholder="Please enter your message here" form="interest_form" required></textarea>
         <p class="hidden feedback">**Please provide your suggestions for improvement**</p>
       </div>
