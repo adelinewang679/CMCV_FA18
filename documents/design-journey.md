@@ -205,7 +205,7 @@ If tab on nav bar is clicked
 *roster psuedocode*
 if mouse is over roster picture
   show positions
-  
+
 Example:
 ```
 if today is a monday:
@@ -217,13 +217,13 @@ if today is a monday:
 
 [You will need to come up with at least 4 tasks. List your tasks here. You *do not* have to do user tests yet.]
 
-Task 1: [describe your task]
+Task 1: Look for the team's tournament and practice schedule this semester.
 
-Task 2:
+Task 2: Fill out the interest form.
 
-Task 3:
+Task 3: How many people are on the team?
 
-Task 4:
+Task 4: How did the team do in the most recent season?
 
 ### Client Meeting (Milestone 2)
 
