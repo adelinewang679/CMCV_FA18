@@ -129,7 +129,7 @@ button{
 #about_description_group{
   width:800px;
   margin: auto;
-  margin-bottom:100px;
+  margin-bottom:150px;
 }
 
 #about_description1{
@@ -163,3 +163,9 @@ footer {
 /* FOOTER END */
 
 /* COMMON CODE FOR ALL PAGES END */
+
+@media(max-width:600px){
+}
+
+@media(min-width: 600px) and (max-width: 900px){
+}
