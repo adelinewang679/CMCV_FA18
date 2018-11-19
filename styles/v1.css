@@ -16,6 +16,10 @@ header {
   height: 400px;
 }
 
+#mobilemenu {
+  display:none;
+}
+
 h1 {
   color: white;
 }
@@ -43,7 +47,7 @@ nav a{
 
 .menu a:hover {
   /* interactivity demo, change the hover action later */
-  background-color: rgba(256,256,256,0.3);
+  background-color: rgba(255,255,255,0.3);
 }
 
 /* COMMON CODE FOR ALL PAGES START */
@@ -145,14 +149,27 @@ button{
 /*About Page End*/
 
 /*Schedule Page*/
+#18schedule{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow:1;
+}
 
+#19schedule {
+  display:flex;
+  flex-direction: row;
+  flex-grow:1;
+}
 
 
 /*Schedule Page End*/
 
 /*News Page*/
 
-
+#news1 #news2 #news3{
+  margin-top: 5%;
+}
 
 
 
@@ -176,8 +193,7 @@ button{
 /* FOOTER START */
 
 footer {
-
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
   padding: 30px 20px;
@@ -185,9 +201,14 @@ footer {
   color: white;
 }
 
+footer p {
+  padding: 0 50px 0 0;
+}
+
 /* FOOTER END */
 
 /* COMMON CODE FOR ALL PAGES END */
+
 
 @media(max-width:600px){
   /* ROSTER PAGE */
@@ -213,4 +234,156 @@ footer {
     margin 30px;
   }
   /*ROSTER END*/
+/* GALLERY START */
+
+#gallerybox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px 70px;
+}
+
+.img_column {
+  flex: 30%;
+  padding: 0 7px;
+}
+
+.img_column img {
+  margin: 7px 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* GALLERY END */
+
+@media screen and (max-width:600px){
+
+  body,html{
+    overflow-x: hidden;
+  }
+
+  /* HEADER START */
+  header {
+    display:flex;
+    flex-direction: column;
+    /* swap the image url below with the real one later */
+    background-image: none;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+  }
+
+  #mobilemenu {
+    padding: 5px 7px;
+    font-size: 20px;
+    color: white;
+    display: block;
+  }
+
+  h1 {
+    color: white;
+    padding: 10% 5% 15% 5%;
+    text-align: center;
+  }
+
+  .logo {
+    padding: 20px;
+  }
+
+  nav{
+    display: none;
+    position: fixed;
+    background-color: darkslategrey;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 50px 100px 30px 30px;
+  }
+
+  .menu {
+    display: block;
+    margin: 40px 20px;
+    font-size: 20px;
+  }
+
+  nav a{
+    border: none;
+  }
+  /* HEADER END */
+
+  /* GALLERY START */
+  #gallerybox {
+    margin: 30px 20px;
+  }
+
+  .img_column {
+    flex: 80%;
+    padding: 0 7px;
+  }
+  /* GALLERY END */
+}
+
+@media(min-width: 600px) and (max-width: 900px){
+
+    body,html{
+      overflow-x: hidden;
+    }
+
+    /* HEADER START */
+    header {
+      display:flex;
+      flex-direction: column;
+      /* swap the image url below with the real one later */
+      background-image: none;
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40%;
+    }
+
+    #mobilemenu {
+      padding: 5px 10px;
+      font-size: 30px;
+      color: white;
+      display: block;
+    }
+
+    h1 {
+      color: white;
+      padding: 10% 5% 15% 5%;
+      text-align: center;
+    }
+
+    .logo {
+      padding: 20px;
+    }
+
+    nav{
+      display: none;
+      position: fixed;
+      background-color: darkslategrey;
+      top: 0;
+      left: 0;
+      height: 100%;
+      padding: 50px 100px 30px 30px;
+    }
+
+    .menu {
+      display: block;
+      margin: 40px 20px;
+      font-size: 20px;
+    }
+
+    nav a{
+      border: none;
+    }
+    /* HEADER END */
+
+    /* GALLERY START */
+    .img_column {
+      flex: 40%;
+    }
+    /* GALLERY END */
+
 }
