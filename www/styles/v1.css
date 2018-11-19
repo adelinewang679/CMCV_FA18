@@ -391,4 +391,14 @@ button{
     }
     /* GALLERY END */
 
+    /*FORM START*/
+    button{
+      margin-bottom: 35px;
+    }
+
+    textarea{
+      width: 70%;
+    }
+    /*FORM END*/
+
 }}
