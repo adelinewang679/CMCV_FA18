@@ -179,7 +179,7 @@ button{
 .threeProfs{
   display:flex;
   flex-direction: row;
-  margin 30px;
+  margin: 30px;
   justify-content:center;
 }
 .prof1 , .prof2 , .prof3{
@@ -187,6 +187,26 @@ button{
   text-align: center;
 }
 /*ROSTER END*/
+
+/* GALLERY START */
+#gallerybox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px 70px;
+}
+
+.img_column {
+  flex: 30%;
+  padding: 0 7px;
+}
+
+.img_column img {
+  margin: 7px 0;
+  vertical-align: middle;
+  width: 100%;
+}
+/* GALLERY END */
 
 /* MAIN END */
 
@@ -208,53 +228,6 @@ footer p {
 /* FOOTER END */
 
 /* COMMON CODE FOR ALL PAGES END */
-
-
-@media(max-width:600px){
-  /* ROSTER PAGE */
-  .threeProfs{
-    flex-wrap: wrap;
-  }
-  .prof1 , .prof2 , .prof3{
-    margin: 20px;
-    text-align: center;
-  }
-  /*ROSTER END*/
-}
-
-@media(min-width: 600px) and (max-width: 900px){
-  /* ROSTER PAGE */
-  .threeProfs{
-    flex-wrap: wrap;
-  }
-  #allProfs{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin 30px;
-  }
-  /*ROSTER END*/
-/* GALLERY START */
-
-#gallerybox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 50px 70px;
-}
-
-.img_column {
-  flex: 30%;
-  padding: 0 7px;
-}
-
-.img_column img {
-  margin: 7px 0;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* GALLERY END */
 
 @media screen and (max-width:600px){
 
@@ -311,6 +284,16 @@ footer p {
     border: none;
   }
   /* HEADER END */
+
+  /* ROSTER PAGE */
+  .threeProfs{
+    flex-wrap: wrap;
+  }
+  .prof1 , .prof2 , .prof3{
+    margin: 20px;
+    text-align: center;
+  }
+  /*ROSTER END*/
 
   /* GALLERY START */
   #gallerybox {
@@ -379,6 +362,18 @@ footer p {
       border: none;
     }
     /* HEADER END */
+
+    /* ROSTER PAGE */
+    .threeProfs{
+      flex-wrap: wrap;
+    }
+    #allProfs{
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 30px;
+    }
+    /*ROSTER END*/
 
     /* GALLERY START */
     .img_column {
