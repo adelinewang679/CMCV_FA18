@@ -305,6 +305,16 @@ footer p {
     padding: 0 7px;
   }
   /* GALLERY END */
+
+  /*FORM START*/
+textarea{
+  width: 80%;
+}
+
+button{
+  margin-bottom: 30px;
+}
+  /*FORM END*/
 }
 
 @media(min-width: 600px) and (max-width: 900px){
