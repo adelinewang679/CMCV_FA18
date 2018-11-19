@@ -178,6 +178,34 @@ For our roster, when the user hovers over a photo of a member, the position of t
 
 [Write your interactivity pseudocode here. Remember you must use two conditional statements.]
 
+*Interest Form pseudocode**
+
+if name is filled out, check to see if it's valid
+  if not valid, provide feedback message "Please provide name"
+
+if email is filled out, check to see if it's valid
+  if not valid, provide feedback message "Please provide a valid email"
+
+if year is filled out, check to see if it's valid
+  if not valid, provide feedback message "Please provide a valid year"
+
+if no checkbox filled out for position
+  provide feedback message "Please select a position"
+
+If message is filled out, check to see if it's valid
+  if not, provide feedback message "Please write your message here"
+
+Are all the required fields filled out after pressing submit?
+  If yes, email form to client
+
+*nav pseuocode*
+If tab on nav bar is clicked
+  highlight tab
+
+*roster psuedocode*
+if mouse is over roster picture
+  show positions
+
 Example:
 ```
 if today is a monday:
@@ -189,13 +217,13 @@ if today is a monday:
 
 [You will need to come up with at least 4 tasks. List your tasks here. You *do not* have to do user tests yet.]
 
-Task 1: [describe your task]
+Task 1: Look for the team's tournament and practice schedule this semester.
 
-Task 2:
+Task 2: Fill out the interest form.
 
-Task 3:
+Task 3: How many people are on the team?
 
-Task 4:
+Task 4: How did the team do in the most recent season?
 
 ### Client Meeting (Milestone 2)
 

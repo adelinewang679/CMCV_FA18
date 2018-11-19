@@ -68,6 +68,111 @@ h2 {
   border: solid black 2px;
 }
 
+/*Form*/
+form{
+  text-align: center;
+
+}
+
+button{
+  margin: 20px;
+  margin-bottom: 100px;
+}
+
+.hidden{
+  display:none;
+}
+
+.feedback{
+  color: red;
+}
+
+#name_block{
+  margin: 20px;
+}
+
+#email_block{
+  margin: 20px;
+}
+
+#year{
+  margin:20px;
+}
+
+#position_Options{
+  text-align:left;
+  display:inline-block;
+  margin-bottom: 20px;
+}
+
+#positionq{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#aboutq{
+  /*display:inline-block;
+  vertical-align: top;
+  margin-right: 5px;*/
+  margin-top:20px;
+}
+
+#about_u{
+  display:block;
+  margin:auto;
+  margin-top:10px;
+}
+
+/*Form End*/
+
+/*About Page*/
+#about_description_group{
+  width:800px;
+  margin: auto;
+  margin-bottom:150px;
+}
+
+#about_description1{
+  margin-bottom:20px;
+}
+
+#aboutImg{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/*About Page End*/
+
+/*Schedule Page*/
+#18{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow:1;
+}
+
+#19 {
+  display:flex;
+  flex-direction: row;
+  flex-grow:1;
+}
+
+
+/*Schedule Page End*/
+
+/*News Page*/
+
+#news1 #news2 #news3{
+  margin-top: 5%;
+}
+
+
+
+/*News Page End*/
+
+
+
 /* MAIN END */
 
 /* FOOTER START */
@@ -106,3 +211,9 @@ footer {
 }
 
 /* GALLERY END */
+
+@media(max-width:600px){
+}
+
+@media(min-width: 600px) and (max-width: 900px){
+}
