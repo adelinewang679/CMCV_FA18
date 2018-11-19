@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Helvetica, sans-serif;
 }
 
 /* HEADER START */
@@ -9,7 +10,8 @@ header {
   display: flex;
   flex-direction: row;
   /* swap the image url below with the real one later */
-  background-image: url("../images/sample.jpg");
+  /* background-image: url("../images/sample.jpg"); */
+  background-color: darkred;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: space-between;
@@ -22,6 +24,11 @@ header {
 
 h1 {
   color: white;
+  font-family: Impact;
+  font-weight:normal;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  font-size: 40px;
 }
 
 .logo {
@@ -38,7 +45,11 @@ nav{
 }
 
 nav a{
+  /* display: block; */
   border: 1px solid white;
+  border-left: 3px solid white;
+  font-variant: small-caps;
+  /* width: 70px; */
   /* border setting is just for testing the layout, change it later */
   padding: 7px 14px;
   color: white;
@@ -70,6 +81,12 @@ nav a{
 h2 {
   padding: 5px 20px;
   border: solid black 2px;
+  border-left: solid  black 5px;
+  /* font-family: "American Typewriter", serif; */
+  letter-spacing: 0.5px;
+  font-size: 28px;
+  font-weight: normal;
+  font-variant: small-caps;
 }
 
 /*Form*/
@@ -401,4 +418,4 @@ button{
     }
     /*FORM END*/
 
-}}
+}
