@@ -179,7 +179,7 @@ button{
 .threeProfs{
   display:flex;
   flex-direction: row;
-  margin 30px;
+  margin: 30px;
   justify-content:center;
 }
 .prof1 , .prof2 , .prof3{
@@ -231,7 +231,7 @@ footer p {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin 30px;
+    margin: 30px;
   }
   /*ROSTER END*/
 /* GALLERY START */
@@ -386,4 +386,4 @@ footer p {
     }
     /* GALLERY END */
 
-}
+}}
