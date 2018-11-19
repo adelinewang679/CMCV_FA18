@@ -73,7 +73,7 @@ h2 {
 /* FOOTER START */
 
 footer {
-  position: fixed;
+  position: bottom;
   width: 100%;
   bottom: 0;
   padding: 30px 20px;
@@ -84,3 +84,25 @@ footer {
 /* FOOTER END */
 
 /* COMMON CODE FOR ALL PAGES END */
+
+/* GALLERY START */
+
+#gallerybox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px 30px;
+}
+
+.img_column {
+  flex: 30%;
+  padding: 0 7px;
+}
+
+.img_column img {
+  margin: 7px 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* GALLERY END */
