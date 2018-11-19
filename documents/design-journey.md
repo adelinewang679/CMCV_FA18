@@ -213,6 +213,19 @@ if today is a monday:
 
 ```
 
+*gallery pseudocode*
+if cursor hovers over image block
+  display a border around the select image
+if cursor clicks on the image
+  display the image in full size as a popup
+
+*mobile version menu pseudocode*
+if user clicks(touches) the menu icon
+  if menu bar is not displayed
+    display the menu bar from the left
+  if menu bar is displayed
+    hide the menu bar to the left
+
 ### Tasks (Milestone 2)
 
 [You will need to come up with at least 4 tasks. List your tasks here. You *do not* have to do user tests yet.]
