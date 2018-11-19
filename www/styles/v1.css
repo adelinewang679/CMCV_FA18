@@ -145,14 +145,14 @@ button{
 /*About Page End*/
 
 /*Schedule Page*/
-#18{
+#18schedule{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   flex-grow:1;
 }
 
-#19 {
+#19schedule {
   display:flex;
   flex-direction: row;
   flex-grow:1;
