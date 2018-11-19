@@ -158,13 +158,25 @@ button{
 
 /*News Page End*/
 
-
+/* ROSTER PAGE */
+.threeProfs{
+  display:flex;
+  flex-direction: row;
+  margin 30px;
+  justify-content:center;
+}
+.prof1 , .prof2 , .prof3{
+  margin: 20px;
+  text-align: center;
+}
+/*ROSTER END*/
 
 /* MAIN END */
 
 /* FOOTER START */
 
 footer {
+
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -178,7 +190,27 @@ footer {
 /* COMMON CODE FOR ALL PAGES END */
 
 @media(max-width:600px){
+  /* ROSTER PAGE */
+  .threeProfs{
+    flex-wrap: wrap;
+  }
+  .prof1 , .prof2 , .prof3{
+    margin: 20px;
+    text-align: center;
+  }
+  /*ROSTER END*/
 }
 
 @media(min-width: 600px) and (max-width: 900px){
+  /* ROSTER PAGE */
+  .threeProfs{
+    flex-wrap: wrap;
+  }
+  #allProfs{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin 30px;
+  }
+  /*ROSTER END*/
 }
