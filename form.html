@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cornell Men's Club Volleyball</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="styles/v1.css">
+  <script src="scripts/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Cornell Men's Club Volleyball</h1>
+    </div>
+    <nav>
+      <ul>
+        <li class="menu"><a href = "index.html">About</a></li>
+        <li class="menu"><a href = "roster.html">Roster</a></li>
+        <li class="menu"><a href = "schedule.html">Schedule</a></li>
+        <li class="menu"><a href = "news.html">News</a></li>
+        <li class="menu"><a href = "form.html">Form</a></li>
+        <li class="menu"><a href = "gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="page_title">
+      <hr class="line"/>
+      <h2>Interest Form</h2>
+      <hr class="line"/>
+    </div>
+
+    <form id="interest_form" method=POST action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
+      <!--NEED EMAIL THING-->
+      <div id="name_block">
+        <label>Name: </label>
+        <input id="nameValue" type="text" name="Name" required/>
+        <p class="hidden feedback" id=nameFeedback>**Please provide a valid name**</p>
+      </div>
+
+      <div id="email_block">
+        <label>Email: </label>
+        <input id=email type="email" name="Email" required/>
+        <p class="hidden feedback">**Please provide a valid email**</p>
+      </div>
+
+      <div id=year>
+        <label id="yearq">Class:</label>
+        <input id="class_year" type="number" name="Class_year" required>
+        <p class="hidden feedback">**Please fill out graduation year**</p>
+      </div>
+      <p id="positionq">Position(s):</p>
+
+      <div id=position_Options>
+        <div>
+          <input id="OH" type="checkbox" name="Positions(s)" value="Outside"/>
+          <label>Outside</label>
+        </div>
+        <div>
+          <input id="RS" type="checkbox" name="Positions(s)" value="Rightside"/>
+          <label>Rightside</label>
+        </div>
+        <div>
+          <input id="MB" type="checkbox" name="Positions(s)" value="Middle" />
+          <label>Middle</label>
+
+        </div>
+        <div>
+          <input id="S" type="checkbox" name="Positions(s)" value="Setter" />
+          <label>Setter</label>
+        </div>
+        <div>
+          <input id="L/DS" type="checkbox" name="Positions(s)" value="Libero/DS" />
+          <label>Libero/DS</label>
+        </div>
+        <p class="hidden feedback">**Please select at least one position**</p>
+
+      </div>
+
+      <div>
+        <label id="aboutq">Tell us about yourself:</label>
+        <textarea id="about_u" rows="15" cols="80" name="About" placeholder="Please enter your message here" form="interest_form" required></textarea>
+        <p class="hidden feedback">**Please write your message here**</p>
+      </div>
+
+      <button type="submit" class="submit">Submit</button>
+
+
+    </form>
+
+  </main>
+  <footer>
+    <!-- Sample Footer -->
+    <p> @Copyright: Cornell Men's Club Volleyball, White Cheetah Team - INFO1300 <p>
+    </footer>
+  </body>
+  </html>
