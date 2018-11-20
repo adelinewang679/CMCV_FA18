@@ -60,8 +60,11 @@ $(document).ready(function() {
 
 
 
+  if ($("#mobilemenu").css("display") != "none"){
+    $("nav").hide();
+  }
 
- $("nav").hide();
+
   $("#mobilemenu").click(function () {
     $("nav").toggle();
   });
