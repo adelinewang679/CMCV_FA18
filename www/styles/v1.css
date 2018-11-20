@@ -184,23 +184,55 @@ button{
 #schedule18 {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  margin-left: 10%;
+  margin-bottom: 20px;
 }
 
 #tournament18 {
-  flex-grow: 1;
+  width:50%;
 }
 
-#practice18 {
-  flex-grow: 1;
+#practice18 p{
+  margin-top: 10px;
 }
 
 #schedule19 {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  margin-left: 10%;
+  margin-bottom:20px;
 }
 
+#tournament19 {
+  width:50%;
+}
+
+#practice19 p{
+  margin-top: 10px;
+}
+
+table {
+  color: #333;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td, th {
+  border: 1px solid transparent;
+  height: 30px;
+}
+
+th {
+  background: #cdcdcd;
+  font-weight: bold;
+}
+
+td {
+  background: #FAFAFA;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 /*Schedule Page End*/
 
@@ -304,7 +336,7 @@ footer p {
   }
 
   nav{
-    /* display: none; */
+    display: none;
     position: fixed;
     background-color: darkslategrey;
     top: 0;
@@ -392,7 +424,7 @@ button{
     }
 
     nav{
-      /* display: none; */
+      display: none;
       position: fixed;
       background-color: darkslategrey;
       top: 0;
