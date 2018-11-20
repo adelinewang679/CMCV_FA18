@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, sans-serif;
 }
 
 /* HEADER START */
@@ -26,12 +25,9 @@ header {
 h1 {
   display: inline-block;
   border: white 1px solid;
-  padding: 50px;
+  margin: 30px 0 0 0 ;
+  padding: 60px 50px;
   color: white;
-  font-family: Impact;
-  font-weight:normal;
-  font-variant: small-caps;
-  letter-spacing: 1px;
   font-size: 40px;
   background-color: rgba(255,255,255,0.2);
 }
@@ -53,7 +49,6 @@ nav a{
   /* display: block; */
   border: 1px solid white;
   border-left: 3px solid white;
-  font-variant: small-caps;
   /* width: 70px; */
   /* border setting is just for testing the layout, change it later */
   padding: 7px 14px;
@@ -78,8 +73,14 @@ nav a{
   align-items: center;
 }
 
-.line {
-  flex-grow: 3;
+#left_line {
+  flex-grow: 2;
+  border: 1px solid black;
+}
+
+
+#right_line {
+  flex-grow: 5;
   border: 1px solid black;
 }
 
@@ -87,7 +88,6 @@ h2 {
   padding: 5px 20px;
   border: solid black 2px;
   border-left: solid  black 5px;
-  /* font-family: "American Typewriter", serif; */
   letter-spacing: 0.5px;
   font-size: 28px;
   font-weight: normal;
