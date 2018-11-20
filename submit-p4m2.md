@@ -32,3 +32,4 @@ We affirm our awareness of the standards of the Cornell Code of Academic Integri
 - Lauren Simons 11/19/2018
 - Jinju Ouck 11/19/2018
 - Yiren Wang 11/19/2018
+- Amelia Lochhead 11/20/2018
