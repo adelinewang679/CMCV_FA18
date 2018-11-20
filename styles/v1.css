@@ -8,13 +8,14 @@
 
 header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   /* swap the image url below with the real one later */
-  /* background-image: url("../images/sample.jpg"); */
-  background-color: darkred;
+  background-image: url("../images/sample.jpg");
+  /* background-color: darkred; */
   background-repeat: no-repeat;
   background-size: cover;
-  justify-content: space-between;
+  align-items: center;
+  /* justify-content: space-between; */
   height: 400px;
 }
 
@@ -23,12 +24,16 @@ header {
 }
 
 h1 {
+  display: inline-block;
+  border: white 1px solid;
+  padding: 50px;
   color: white;
   font-family: Impact;
   font-weight:normal;
   font-variant: small-caps;
   letter-spacing: 1px;
   font-size: 40px;
+  background-color: rgba(255,255,255,0.2);
 }
 
 .logo {
@@ -284,7 +289,7 @@ footer p {
   }
 
   nav{
-    display: none;
+    /* display: none; */
     position: fixed;
     background-color: darkslategrey;
     top: 0;
@@ -372,7 +377,7 @@ button{
     }
 
     nav{
-      display: none;
+      /* display: none; */
       position: fixed;
       background-color: darkslategrey;
       top: 0;
