@@ -167,10 +167,10 @@ button{
 
 /*Schedule Page*/
 
-/* main{
-  margin-left: 30%;
-  margin-right: 20%;
-} */
+main{
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
 #schedule18 {
   display: flex;
