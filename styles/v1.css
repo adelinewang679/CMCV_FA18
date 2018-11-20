@@ -100,10 +100,12 @@ form{
 
 }
 
-label{
+.alignL{
   display: inline-block;
   width: 30%;
-  text-align: right;
+  text-align:right;
+
+
 }
 
 button{
