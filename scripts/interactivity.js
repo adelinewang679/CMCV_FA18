@@ -69,4 +69,8 @@ $(document).ready(function() {
     $("nav").toggle();
   });
 
+  $("#gallerybox img").click(function () {
+    
+  })
+
 });
