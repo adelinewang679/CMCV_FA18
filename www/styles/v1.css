@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* HEADER START */
@@ -237,17 +238,9 @@ td {
 
 /*News Page*/
 
-.timeline{
-  margin: 0 5% 5% 5%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 .timeline {
   position: relative;
-  margin: 0 auto;
+  margin:  0 10%;
 }
 
 /* the ruler */
