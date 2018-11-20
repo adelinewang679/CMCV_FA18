@@ -22,6 +22,16 @@ $(document).ready(function() {
       $("#emailFeedback").removeClass("hidden");
     }
 
+    //is year filled out
+    var yearValid = $("#class_year").prop("validity").valid;
+
+    if(yearValid){
+      $("#yearFeedback").addClass("hidden");
+    }else{
+      formValid = false;
+      $("#yearFeedback").removeClass("hidden");
+    }
+
     //is text area filled out
     var validMessage = $("#about_u").prop("validity").valid;
 
