@@ -242,6 +242,18 @@ Task 4: How did the team do in the most recent season?
 
 [By this point, you have met once with your client a second time to discuss your initial design. Include your notes from the meeting, an email they sent you, or whatever you used to keep track of what was discussed at the meeting. Write a few sentences about the design feedback you received from your client.]
 
+Detailed meeting minutes can be found in documents/client_meeting_2_minutes.md.
+
+We will
+1)change the font,
+2)embed a translucent page title onto a team picture instead of current design,
+3)style the news page and replace current articles with a more updated version from the client,
+4)style the schedule page,
+5)make sure our navigation bar buttons don't overlap with each other,
+6)keep working on the roster page,
+7)not make certain fields in the form required as requested by the client.
+
+
 ### Additional Comments (Milestone 2)
 
 [If you feel like you haven't fully explained your design choices, or if you want to explain some other functions in your site (such as special design decisions that might not meet the Project 4 requirements), you can use this space to justify your design choices or ask other questions about the project and process.]
