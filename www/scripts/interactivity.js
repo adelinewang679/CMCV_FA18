@@ -49,8 +49,6 @@ $(document).ready(function() {
 
 
 
-
-
   if ($("#mobilemenu").css("display") != "none"){
     $("nav").hide();
   }
@@ -61,7 +59,33 @@ $(document).ready(function() {
   });
 
   $("#gallerybox img").click(function () {
-    
+
   })
+
+  //This is the interactivity for player titles
+ //Captians
+  $("#player1").mouseover(function(){
+    $(".ttitle1").removeClass("hidden");
+  });
+  $("#player1 img").mouseout(function(){
+    $(".ttitle1").addClass("hidden");
+  });
+
+  $("#player2").mouseover(function(){
+    $(".ttitle2").removeClass("hidden");
+  });
+  $("#player1 img").mouseout(function(){
+    $(".ttitle2").addClass("hidden");
+  });
+
+//President
+  $("#player3").mouseover(function(){
+    $(".ttitle3").removeClass("hidden");
+  });
+  $("#player3 img").mouseout(function(){
+    $(".ttitle3").addClass("hidden");
+  });
+
+
 
 });
