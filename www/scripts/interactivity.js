@@ -51,15 +51,6 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
   if ($("#mobilemenu").css("display") != "none"){
     $("nav").hide();
   }
