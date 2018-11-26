@@ -297,6 +297,7 @@ td {
 /*News Page End*/
 
 /* ROSTER PAGE */
+
 .threeProfs{
   display:flex;
   flex-direction: row;
@@ -419,6 +420,12 @@ footer p {
   /* ROSTER PAGE */
   .threeProfs{
     flex-wrap: wrap;
+  }
+  #allProfs{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
   }
   .prof1 , .prof2 , .prof3{
     margin: 20px;
@@ -572,6 +579,12 @@ button{
       flex-wrap: wrap;
       margin: 30px;
     }
+    .prof1 , .prof2 , .prof3{
+      margin: 20px;
+      text-align: center;
+    }
+    /*ROSTER END*/
+
     /*ROSTER END*/
 
     /* GALLERY START */
