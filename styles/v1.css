@@ -520,8 +520,10 @@ button{
       background-size: cover;
       height: 40%;
     }
-
+    
     #mobilemenu {
+      position:absolute;
+      z-index:100;
       padding: 5px 10px;
       font-size: 30px;
       color: white;
