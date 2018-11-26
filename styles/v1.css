@@ -483,6 +483,12 @@ textarea{
 button{
   margin-bottom: 30px;
 }
+
+.alignL{
+  display: inline-block;
+  width: 15%;
+  text-align:right;
+}
   /*FORM END*/
 
   /*INDEX START*/
@@ -581,6 +587,12 @@ button{
 
     textarea{
       width: 70%;
+    }
+
+    .alignL{
+      display: inline-block;
+      width:7%;
+      text-align:right;
     }
     /*FORM END*/
 
