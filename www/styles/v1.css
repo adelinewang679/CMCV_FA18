@@ -484,6 +484,17 @@ button{
   margin-bottom: 30px;
 }
   /*FORM END*/
+
+  /*INDEX START*/
+  #aboutImg{
+    width: 80%;
+  }
+
+  #about_description_group{
+    width: 90%;
+    text-align: center;
+  }
+  /*INDEX END*/
 }
 
 @media(min-width: 600px) and (max-width: 900px){
@@ -573,4 +584,13 @@ button{
     }
     /*FORM END*/
 
+    /*INDEX START*/
+    #aboutImg{
+      width: 90%;
+    }
+
+    #about_description_group{
+      width: 90%;
+    }
+    /*INDEX END*/
 }
