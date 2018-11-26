@@ -53,6 +53,12 @@ $(document).ready(function() {
     $("nav").hide();
   }
 
+$( window ).resize(function() {
+  if ($("#mobilemenu").css("display") != "none"){
+    $("nav").hide();
+  } else $("nav").show();
+});
+
 
   $("#mobilemenu").click(function () {
     $("nav").toggle();
