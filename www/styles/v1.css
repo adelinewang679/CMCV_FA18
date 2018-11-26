@@ -398,7 +398,7 @@ footer p {
   nav{
     /* display: none; */
     position: fixed;
-    background-color: darkslategrey;
+    background-color: #9c2020;
     top: 0;
     left: 0;
     height: 100%;
@@ -544,7 +544,7 @@ button{
     nav{
       display: none;
       position: fixed;
-      background-color: darkslategrey;
+      background-color: #9c2020;
       top: 0;
       left: 0;
       height: 100%;
