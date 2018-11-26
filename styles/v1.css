@@ -308,7 +308,7 @@ td {
   margin: 20px;
   text-align: center;
 }
-.title1, .title2, .title3 {
+.title1, .title2, .title3, .title4  {
   background-color: red;
   padding: 5px;
   color: white;
@@ -527,7 +527,7 @@ button{
       background-size: cover;
       height: 40%;
     }
-    
+
     #mobilemenu {
       position:absolute;
       z-index:100;

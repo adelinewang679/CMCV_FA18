@@ -92,6 +92,14 @@ $( window ).resize(function() {
     $(".title3").addClass("hidden");
   });
 
+  // Vice President
+    $("#player4").mouseover(function(){
+      $(".title4").removeClass("hidden");
+    });
+    $("#player4 img").mouseout(function(){
+      $(".title4").addClass("hidden");
+    });
+
 
 
 });
