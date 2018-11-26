@@ -179,33 +179,18 @@ button{
 
 /*Schedule Page*/
 
-#schedule18 {
+#schedule18, #schedule19 {
   display: flex;
   flex-direction: row;
-  margin-left: 15%;
-  margin-bottom: 20px;
+  margin: 0 10% 20px 15%;
 }
 
-#tournament18 {
+#tournament18, #tournament19 {
+  margin-right: 10%;
   width:50%;
 }
 
-#practice18 p{
-  margin-top: 10px;
-}
-
-#schedule19 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 15%;
-  margin-bottom:20px;
-}
-
-#tournament19 {
-  width:50%;
-}
-
-#practice19 p{
+#practice18 p, #practice19 p{
   margin-top: 10px;
 }
 
@@ -440,6 +425,44 @@ footer p {
     text-align: center;
   }
   /*ROSTER END*/
+
+  /*SCHEDULE START*/
+  #schedule18, #schedule19 {
+    display: block;
+    margin: 0 10% 20px 10%;
+  }
+
+  #tournament18, #tournament19 {
+    display: block;
+    width:100%;
+    margin-bottom: 10px;
+  }
+
+  #practice18 p, #practice19 p{
+    margin-top: 10px;
+  }
+
+  /*SCHEDULE END*/
+
+  /*NEWS START*/
+  .timeline::after {
+      left: 10%;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 0;
+  }
+
+  .right {
+    left:0;
+  }
+
+  .left::after, .right::after {
+    left: 5%;
+  }
+  /*NEWS END*/
 
   /* GALLERY START */
   #gallerybox {
