@@ -215,6 +215,7 @@ table {
   color: #333;
   border-collapse: collapse;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 td, th {
@@ -234,6 +235,13 @@ td {
   padding-right: 10px;
 }
 
+.leftcol {
+  width: 150px;
+}
+
+.rightcol {
+  width: 300px;
+}
 /*Schedule Page End*/
 
 /*News Page*/
