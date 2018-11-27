@@ -308,10 +308,12 @@ td {
   margin: 20px;
   text-align: center;
 }
-.title1, .title2, .title3, .title4  {
-  background-color: red;
+.title1, .title2, .title3, .title4, .title5, .title6, .title7, .title8,
+.title9, .title10, .title11, .title12 {
+  background-color: #27cbc6;
   padding: 5px;
   color: white;
+  font-weight: bold;
 }
 /*ROSTER END*/
 
