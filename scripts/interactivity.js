@@ -124,14 +124,14 @@ $( window ).resize(function() {
   $("#player1").mouseover(function(){
     $(".title1").removeClass("hidden");
   });
-  $("#player1 img").mouseout(function(){
+  $("#player1").mouseout(function(){
     $(".title1").addClass("hidden");
   });
 
   $("#player2").mouseover(function(){
     $(".title2").removeClass("hidden");
   });
-  $("#player2 img").mouseout(function(){
+  $("#player2").mouseout(function(){
     $(".title2").addClass("hidden");
   });
 
@@ -139,7 +139,7 @@ $( window ).resize(function() {
   $("#player3").mouseover(function(){
     $(".title3").removeClass("hidden");
   });
-  $("#player3 img").mouseout(function(){
+  $("#player3").mouseout(function(){
     $(".title3").addClass("hidden");
   });
 
@@ -147,7 +147,7 @@ $( window ).resize(function() {
     $("#player4").mouseover(function(){
       $(".title4").removeClass("hidden");
     });
-    $("#player4 img").mouseout(function(){
+    $("#player4").mouseout(function(){
       $(".title4").addClass("hidden");
     });
 
