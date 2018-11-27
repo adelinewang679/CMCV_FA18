@@ -10,7 +10,8 @@ header {
   display: flex;
   flex-direction: column;
   /* swap the image url below with the real one later */
-  background-image: url("../images/sample.jpg");
+  background-image: url("../images/team_pic3.jpg");
+  background-position:50% 10%;
   /* background-color: darkred; */
   background-repeat: no-repeat;
   background-size: cover;
