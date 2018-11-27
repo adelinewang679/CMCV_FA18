@@ -415,8 +415,7 @@ footer p {
   header {
     display:flex;
     flex-direction: column;
-    /* swap the image url below with the real one later */
-    background-image: none;
+    background-image: url("../images/test2.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -569,8 +568,7 @@ button{
     header {
       display:flex;
       flex-direction: column;
-      /* swap the image url below with the real one later */
-      background-image: none;
+      background-image: url("../images/test2.jpg");
       background-color: black;
       background-repeat: no-repeat;
       background-size: cover;
