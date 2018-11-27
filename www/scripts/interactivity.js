@@ -47,7 +47,7 @@ $(document).ready(function() {
 
 
 
-
+  //MOBILE MENU INTERACTIVITY
   var windowratio = $(window).width()/$(window).height();
 
   if ($("#mobilemenu").css("display") != "none"){
@@ -66,14 +66,16 @@ $( window ).resize(function() {
     $("nav").toggle();
   });
 
+  var imgpointer = null;
 
+  //GALLERY INTERACTIVITY
   $("#gallerybox img").click(function () {
     // For tablet and pc only
     if ($(window).width() > 600) {
+      imgpointer = $(this);
       $("#largeImgContainer").css("display","flex");
       $("#largeImgContainer *").css("display","initial");
-      var imgurl = $(this).attr("src");
-      $("#largeImg").attr("src",imgurl);
+      $("#largeImg").attr("src",$(this).attr("src"));
       var imgratio = ($(this).width())/$(this).height();
       // Check if image is horizontally longer than the available space or not
       if (windowratio > imgratio) {
@@ -93,6 +95,28 @@ $( window ).resize(function() {
   $("#largeImg").click(function () {
     $("#largeImgContainer").css("display","none");
     $("#largeImgContainer *").css("display","none");
+  });
+
+  $("#leftarrow").click(function() {
+    if(imgpointer.prev().attr("src")==undefined) {
+      if (imgpointer.parent().prev().children("img:last").attr("src") != undefined)
+        imgpointer = imgpointer.parent().prev().children("img:last");
+      // alert(imgpointer.attr("src"));
+    }else {
+      imgpointer = imgpointer.prev()
+    }
+    $("#largeImg").attr("src",imgpointer.attr("src"));
+  });
+
+  $("#rightarrow").click(function() {
+    if(imgpointer.next().attr("src")==undefined) {
+      if (imgpointer.parent().next().children("img:first").attr("src") != undefined)
+        imgpointer = imgpointer.parent().next().children("img:first");
+      // alert(imgpointer.attr("src"));
+    }else {
+      imgpointer = imgpointer.next()
+    }
+    $("#largeImg").attr("src",imgpointer.attr("src"));
   });
 
   //This is the interactivity for player titles
