@@ -64,9 +64,10 @@ $( window ).resize(function() {
     $("nav").toggle();
   });
 
+
   $("#gallerybox img").click(function () {
 
-  })
+  });
 
   //This is the interactivity for player titles
  //Captains
