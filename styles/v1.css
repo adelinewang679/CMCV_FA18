@@ -10,14 +10,27 @@ header {
   display: flex;
   flex-direction: column;
   /* swap the image url below with the real one later */
-  background-image: url("../images/team_pic3.jpg");
-  background-position:50% 10%;
+  background-image: url("../images/test2.jpg");
+  background-position:50% 20%;
   /* background-color: darkred; */
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
   /* justify-content: space-between; */
   height: 400px;
+}
+
+#header_citation{
+  text-align:right;
+  font-size:7pt;
+  margin-top:70px;
+  margin-left: 97%;
+}
+
+#header_citation a{
+  color:white;
+  text-decoration:none;
+  font-family: serif;
 }
 
 #mobilemenu {
