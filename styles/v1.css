@@ -336,6 +336,10 @@ td {
   display:none;
 }
 
+#leftarrow, #rightarrow {
+  cursor: pointer;
+}
+
 #gallerybox {
   display: flex;
   flex-direction: row;
