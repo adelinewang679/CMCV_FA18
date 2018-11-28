@@ -13,6 +13,7 @@ header {
   flex-direction: column;
   /* swap the image url below with the real one later */
   background-image: url("../images/test2.jpg");
+  /*Header Citation: http://www.eldonlindsayphotography.com/blog/2018/9/2/labor-day-weekend-recap-cornell-sports */
   background-position:50% 20%;
   /* background-color: darkred; */
   background-repeat: no-repeat;
