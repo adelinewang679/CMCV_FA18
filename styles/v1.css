@@ -347,10 +347,16 @@ td {
 .prof1 , .prof2 , .prof3{
   margin: 20px;
   text-align: center;
+  position: relative;
+  width: 25%;
 }
 .title1, .title2, .title3, .title4, .title5, .title6, .title7, .title8,
 .title9, .title10, .title11, .title12 {
-  background-color: #27cbc6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #9c2020;
   padding: 5px;
   color: white;
   font-weight: bold;
@@ -360,94 +366,13 @@ dt{
   margin: 7px;
 }
 
-#player1{
+#player1, #player2, #player3, #player4, #player5, #player6, #player7, #player8, #player9, #player10, #player11, #player12, #player13, #player14, #player15, #player16, #player17{
   width:100%;
-  height:70%;
+  /* height:70%; */
 }
 
-#player2{
-  width:100%;
-  height:70%;
-}
-
-#player3{
-  width:100%;
-  height:70%;
-}
-
-#player4{
-  width:100%;
-  height:70%;
-}
-
-#player5{
-  width:100%;
-  height:70%;
-}
-
-#player6{
-  width:100%;
-  height:70%;
-}
-
-#player7{
-  width:100%;
-  height:70%;
-}
-
-#player8{
-  width:100%;
-  height:70%;
-}
-
-#player9{
-  width:100%;
-  height:70%;
-}
-
-#player10{
-  width:100%;
-  height:70%;
-}
-
-#player11{
-  width:100%;
-  height:70%;
-}
-
-#player12{
-  width:100%;
-  height:70%;
-}
-
-#player13{
-  width:100%;
-  height:70%;
-}
-
-#player14{
-  width:100%;
-  height:70%;
-}
-
-#player15{
-  width:100%;
-  height:70%;
-}
-
-#player16{
-  width:100%;
-  height:70%;
-}
-
-#player17{
-  width:100%;
-  height:70%;
-}
-
-#player18{
-  width:100%;
-  height:70%;
+#player18 {
+  width: 100%;
 }
 /*ROSTER END*/
 

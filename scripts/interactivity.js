@@ -122,33 +122,41 @@ $( window ).resize(function() {
   //This is the interactivity for player titles
  //Captains
   $("#player1").mouseover(function(){
-    $(".title1").removeClass("hidden");
+    // $(".title1").removeClass("hidden");
+    $(".title1").slideDown("fast");
   });
   $("#player1").mouseout(function(){
-    $(".title1").addClass("hidden");
+    // $(".title1").addClass("hidden");
+    $(".title1").slideUp("fast");
   });
 
   $("#player2").mouseover(function(){
-    $(".title2").removeClass("hidden");
+    // $(".title2").removeClass("hidden");
+    $(".title2").slideDown("fast");
   });
   $("#player2").mouseout(function(){
-    $(".title2").addClass("hidden");
+    // $(".title2").addClass("hidden");
+    $(".title2").slideUp("fast");
   });
 
 //President
   $("#player3").mouseover(function(){
-    $(".title3").removeClass("hidden");
+    // $(".title3").removeClass("hidden");
+    $(".title3").slideDown("fast");
   });
   $("#player3").mouseout(function(){
-    $(".title3").addClass("hidden");
+    // $(".title3").addClass("hidden");
+    $(".title3").slideUp("fast");
   });
 
   // Vice President
     $("#player4").mouseover(function(){
-      $(".title4").removeClass("hidden");
+      // $(".title4").removeClass("hidden");
+      $(".title4").slideDown("fast");
     });
     $("#player4").mouseout(function(){
-      $(".title4").addClass("hidden");
+      // $(".title4").addClass("hidden");
+      $(".title4").slideUp("fast");
     });
 
 
