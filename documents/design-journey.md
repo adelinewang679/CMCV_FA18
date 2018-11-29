@@ -129,6 +129,7 @@ Example:
   - Discussed in detail with client about current navigation and what its flaws are.
   - Looked at other sports teams navigations, picked categories we thought would pertain to the team.
   - Discussed and sketched what pages would look like loosely. Sketched more pages than we planned to include and saw which headers could be combined given similar information (for example we originally had a "achievements" page and we decided to merge with about us and instead add and News page).
+  - Card Sort activity ![](cardSort.jpg)
 
 #### Sketches
 
