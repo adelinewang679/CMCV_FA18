@@ -115,7 +115,6 @@ h2 {
 /*Form*/
 form{
   text-align: center;
-  background-color:rgba(241, 37, 24, 0.30);
   padding:10px;
   margin: 20px;
   margin-top: 0px;
@@ -133,6 +132,7 @@ form{
 #formIntro{
   padding:10px;
   margin: 20px;
+  text-align: center;
   border: solid black 2px;
   border-left: solid  black 5px;
   font-variant: normal;
