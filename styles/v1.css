@@ -126,7 +126,7 @@ form{
   border: none;
   margin: 10px;
   padding: 5px;
-  color: red;
+  color: darkred;
   font-size: 40px;
 }
 #formIntro{
@@ -156,10 +156,8 @@ button{
   display: none;
 }
 .feedback{
-  color: white;
   font-size: 110%;
-  background-color: red;
-  border-radius: 10px;
+  color: red;
   margin-top: 5px;
 }
 #name_block{
