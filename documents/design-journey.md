@@ -18,6 +18,19 @@ Current URL:
 http://orgsync.rso.cornell.edu/org/mensclubvolleyball/About
   - Form page and Calendar page are inactive.
 
+Screenshots(Only the pages that exist):
+
+Home(About)
+![](origsite_main.png)
+Event
+![](origsite_event.png)
+News
+![](origsite_news.png)
+Pictures
+![](origsite_pictures.png)
+Contact
+![](origsite_contact.png)
+
 
 ### Client Needs & Wants/Requirements (Milestone 1)
 
