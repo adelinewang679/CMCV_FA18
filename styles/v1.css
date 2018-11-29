@@ -131,7 +131,7 @@ form{
 }
 #formIntro{
   padding:10px;
-  margin: 20px;
+  margin: 20px 60px;
   text-align: center;
   border: solid black 2px;
   border-left: solid  black 5px;
@@ -208,6 +208,27 @@ button{
 .boxes{
   margin:10px;
 }
+
+input {
+  padding: 3px;
+  border-radius: 3px;
+  border: lightgray 1px solid;
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 3px;
+  border: lightgray 1px solid;
+}
+
+.submit {
+  border-radius: 3px;
+  border: none;
+  background-color: darkred;
+  color: white;
+  padding: 10px 50px;
+}
+
 /*Form End*/
 
 /*About Page*/
