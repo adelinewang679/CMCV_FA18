@@ -239,36 +239,40 @@ textarea {
 
 /*About Page*/
 #about_description_group{
-  width:64%;
-  margin: auto;
-  margin-bottom:150px;
+  display:block;
+  width:50%;
+  margin-left: 20px;
+  
 }
 
 #about_description1{
-  display: flex;
+  display: block;
   font-size: 17px;
-  margin: 0 auto;
   margin-bottom:20px;
-  border-left: 3px black solid;
-  padding: 6px;
-  background-color: rgba(0,0,0,0.1);;
 }
 
 #about_description2{
+  display: block;
   font-size: 17px;
-  margin-bottom:20px;
-  margin: 0 auto;
-  border-left: 3px black solid;
-  padding: 6px;
-  background-color: rgba(0,0,0,0.1);;
+
+
 }
 
 #aboutImg{
-  display: block;
-  margin: auto;
-  margin-bottom: 20px;
-  width: 64%;
+  display: flex;
+  margin-left: 60px;
+  width: 50%;
+  height: 50%;
   border-radius: 10px;
+}
+
+#aboutGroup{
+  display:flex;
+  align-items: flex-start;
+  margin-bottom:150px;
+  margin-top: 70px;
+  margin-right:60px;
+
 }
 
 /*About Page End*/
