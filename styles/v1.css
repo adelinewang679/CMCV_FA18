@@ -132,6 +132,8 @@ form{
 }
 
 #formIntro{
+  font-size: 30px;
+  font-weight: normal;
   padding:10px;
   margin: 20px 60px;
   text-align: center;
@@ -428,12 +430,7 @@ dt{
   margin: 7px;
 }
 
-#player1, #player2, #player3, #player4, #player5, #player6, #player7, #player8, #player9, #player10, #player11, #player12, #player13, #player14, #player15, #player16, #player17{
-  width:100%;
-  /* height:70%; */
-}
-
-#player18 {
+#player1, #player2, #player3, #player4, #player5, #player6, #player7, #player8, #player9, #player10, #player11, #player12, #player13, #player14, #player15, #player16, #player17, #player18 {
   width: 100%;
 }
 /*ROSTER END*/
@@ -589,6 +586,7 @@ footer p {
   .prof1 , .prof2 , .prof3{
     margin: 20px;
     text-align: center;
+    width: 80%;
   }
   /*ROSTER END*/
 
@@ -642,6 +640,10 @@ footer p {
   /* GALLERY END */
 
   /*FORM START*/
+  form {
+    margin-left: 0;
+    margin-right: 0;
+  }
   textarea{
     width: 80%;
   }
@@ -650,10 +652,15 @@ footer p {
     margin-bottom: 30px;
   }
 
+  label {
+    font-size: 20px;
+  }
+
   .alignL{
+    font-size: 16px;
     display: inline-block;
     width: 15%;
-    text-align:right;
+    text-align:left;
   }
 
   #positionq{
@@ -670,8 +677,16 @@ footer p {
   }
 
   .pOption{
-    font-size: 120%;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+
+  #formIntro, #formWelcome {
+    font-size: 20px;
+  }
+
+  #aboutq, #positionq {
+    font-size: 16px;
   }
 
   /*FORM END*/
@@ -774,6 +789,7 @@ footer p {
   .prof1 , .prof2 , .prof3{
     margin: 20px;
     text-align: center;
+    /* width: 40%; */
   }
 
   /*ROSTER END*/
@@ -798,11 +814,22 @@ footer p {
     width: 70%;
   }
 
+  #formIntro, #formWelcome {
+    font-size: 25px;
+  }
+
+  #aboutq, #positionq {
+    font-size: 20px;
+  }
+
   .alignL{
+    font-size: 20px;
     display: inline-block;
-    width:7%;
+    width:20%;
     text-align:right;
   }
+
+
   /*FORM END*/
 
   /*INDEX START*/
