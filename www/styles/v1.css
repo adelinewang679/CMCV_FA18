@@ -798,6 +798,26 @@ footer p {
 
   /*ROSTER END*/
 
+  /*NEWS START*/
+  .timeline::after {
+    left: 10%;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 0;
+  }
+
+  .right {
+    left:0;
+  }
+
+  .left::after, .right::after {
+    left: 5%;
+  }
+  /*NEWS END*/
+
   /* GALLERY START */
 
   #largeImgContainer {
