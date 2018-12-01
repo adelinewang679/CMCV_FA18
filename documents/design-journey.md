@@ -78,14 +78,14 @@ The purpose of the website is to primarily provide information to recruits (curr
 [Tell us about the specific audience(s) for this website.]
 
 The audience for this website is potential recruits for the team. There are two categories of recruits: 1. Young adults who are currently at Cornell who have heard of the team and have interest in it. 2. People who are not currently at cornel but looking to come to the school and want to play volleyball at a lower level than varsity.
-The audience also includes teams from other schools who may be sussing out the competition.
+The audience also includes teams from other schools who may be sussing out the competition and other people who want to come watch the team play.
 
 #### Target Audience Needs
 
 [What are the needs of your target audience(s)? Note that these are probably *not* the needs of your client.]
 
 Our target audience needs to make the decision wether they want to be part of the team or not. In order to decide this, we need to give the user a holistic, 360 view of the team. They need to know the commitment level, personality, vision, and past looks like of the team.
-The other section of the target audience will most likely be looking more at achievements and team information. They will want to see what they team looks like at this current time and who they should look out for. They may also be trying to see how they played against other teams in the past.
+The other section of the target audience will most likely be looking more at achievements and team information. They will want to see what they team looks like at this current time and who they should look out for. They may also be trying to see how they played against other teams in the past. Additionally, they need to know the tournament schedule if they are going to watch.
 
 ### Initial Design (Milestone 1)
 
@@ -286,47 +286,169 @@ We will
 
 [What changes did you make to your plan or design based on your peers' feedback?]
 
+We changed the about page because the feedback said it was not good design. The image was too big and the text was too small.
+
 ### User Testing (Final Submission)
 
 #### Participant 1
 
 1. Who is your participant, e.g., what is their name, where do they comes from, what is their job, characteristics, etc.?
+Abbey Skalka is a junior at Cornell studying government. She's from Connecticut and is in the middle class. She has a friend on the men's club volleyball team and wants to figure out when their next match is to go watch. She does not play sports.
 
 
 2. Does your participant belong to your target audience of the site? (Yes / No)
 
 [If “No”, what’s your strategy of associating the user test results to your target audience’s needs and wants? How can your re-design choices based on the user tests make a better fit for the target audience?]
-
+Yes.
 [Report the results for your user's performance on each of your tasks. You should **describe the task** you ask the user to complete, explain **what the user did**, describe the user's **reaction/feedback** to the design, **reflect on the user's performance**, determine what **re-design choices** you will make. You can also add any additional comments in the **memo** field.]
 
 Format:
 - Task #1
   - **Task Description** (What was the task for this user?)
-    - [You should fill this out]
+    - Look for the team's tournament and practice schedule this semester.
   - **How did the user do? Did that meet your expectation?**
-    - [You should fill this out]
-    - [Maybe with multiple points]
+    - User performed task well and in a timely manner
+    - Met expectations
   - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
-    - [You should fill this out]
+    - User thought the design was intuitive and nav bar was labeled well
   - **Your reflections about the user’s performance to the task**
-    - [You should fill this out]
+    - User had no problems completing the task.
   - **Re-design choices**
-    - [You should fill this out]
+    - None.
   - **Memo** (Justify your decisions; additional notes.)
-    - [You should fill this out]
+    - User had no problem with task, so this doesn't warrant a redesign
+
+- Task #2
+    - **Task Description** (What was the task for this user?)
+      - Fill out the interest form
+    - **How did the user do? Did that meet your expectation?**
+      - User scrolled through the about page first and then went to the contact us page.
+      - They do not actually play volleyball, so they hesitated on whether or not to fill out the positions section
+      - User filled out form slower than expected
+    - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+      - User liked the form design
+    - **Your reflections about the user’s performance to the task**
+      - User filled out form slower than wanted, but still accomplished task.
+    - **Re-design choices**
+      - Identifying with an asterisk which fields are required.
+      - Add location to home tournaments that include the building/gym.
+    - **Memo** (Justify your decisions; additional notes.)
+      - audience members that do not play volleyball, but want to ask a question, will know they don't have to fill out the field.
+
+- Task #3
+    - **Task Description** (What was the task for this user?)
+      - How many people are on the team?
+    - **How did the user do? Did that meet your expectation?**
+      - User went to the about page first, then went to the roster most likely because she does not have a sports background.
+      - Did not meet expectations initially.
+    - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+      - User really liked the roster layout and said it looked cool.
+    - **Your reflections about the user’s performance to the task**
+      - User completed task slower than wanted, but still accomplished task.
+    - **Re-design choices**
+      - None.
+    - **Memo** (Justify your decisions; additional notes.)
+      - The visual appearance of the roster is unique and more interesting compared, which outweighs the numbered list option with no pictures. Because only a small percentage of the audience will not have a sports background, the tab should be named the same for roster.
+
+- Task #4
+  - **Task Description** (What was the task for this user?)
+    - How did the team do in the most recent season?
+  - **How did the user do? Did that meet your expectation?**
+    - User went to the about page right away and immediately found it in the paragraph
+    - User exceeded expectations
+  - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+    - User thought that it was a cool factoid.
+  - **Your reflections about the user’s performance to the task**
+    - User completed task faster than anticipated since the fact was in a paragraph.
+  - **Re-design choices**
+    - None.
+  - **Memo** (Justify your decisions; additional notes.)
+    - Design is intuitive and paragraphs are split up appropriately on about page.
+
+
 
 [Include evidence of your user testing process.]
+
+![](user1Abbey.pdf)
 
 #### Participant 2
 
 1. Who is your participant, e.g., what is their name, where do they comes from, what is their job, characteristics, etc.?
-
+Brian Guo is a 1st year graduate student in Johnson at Cornell. They are from New Jersey and have played volleyball for fun all of their life. While they mostly play intramural beach volleyball, Brian is interested in joining the indoor team in the spring.
 
 2. Does your participant belong to your target audience of the site? (Yes / No)
 
 [If “No”, what’s your strategy of associating the user test results to your target audience’s needs and wants? How can your re-design choices based on the user tests make a better fit for the target audience?]
+Yes.
 
 [Fill this out like you did for Participant 1 above]
+
+- Task #1
+  - **Task Description** (What was the task for this user?)
+    - Look for the team's tournament and practice schedule this semester.
+  - **How did the user do? Did that meet your expectation?**
+    - Went straight to the schedule tab and found it immediately.
+    - Met expectations
+  - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+    - User thought the task was easy
+    - User was surprised at how little of a commitment it is.
+  - **Your reflections about the user’s performance to the task**
+    - User had no problems completing the task.
+  - **Re-design choices**
+    - None.
+  - **Memo** (Justify your decisions; additional notes.)
+    - User had no problem with task, so this doesn't warrant a redesign
+
+- Task #2
+    - **Task Description** (What was the task for this user?)
+      - Fill out the interest form
+    - **How did the user do? Did that meet your expectation?**
+      - User went straight to contact us tab and filled out all fields in the form (picked libero as postion)
+      - User met expectations
+      - Message contained information regarding him wanting to join the team.
+    - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+      - Thought the form was simple
+    - **Your reflections about the user’s performance to the task**
+      - User filled out form in a timely manner.
+    - **Re-design choices**
+      - None.
+    - **Memo** (Justify your decisions; additional notes.)
+      - Form use was excellent and satisifed the purpose that the client wanted.
+
+- Task #3
+    - **Task Description** (What was the task for this user?)
+      - How many people are on the team?
+    - **How did the user do? Did that meet your expectation?**
+      - Met expectations
+      - Went straight to roster page and counted the players.
+    - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+      - User said he really liked the pictures.
+    - **Your reflections about the user’s performance to the task**
+      - User completed task very quickly and seemed to like the design.
+    - **Re-design choices**
+      - None.
+    - **Memo** (Justify your decisions; additional notes.)
+      - User had no problem completing task and enjoyed looking through roster.
+
+- Task #4
+  - **Task Description** (What was the task for this user?)
+    - How did the team do in the most recent season?
+  - **How did the user do? Did that meet your expectation?**
+    - User went to the news page first and then went to the about page.
+    - Immediately found the info on the about page
+    - Initially did not meet expectations, but
+  - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+    - User really liked the team picture and called them "heartbreakers"
+  - **Your reflections about the user’s performance to the task**
+    - User completed task a little slower than anticipated, but found the info in a reasonable time.
+  - **Re-design choices**
+    - None.
+  - **Memo** (Justify your decisions; additional notes.)
+    - We haven't received updated news articles about the most recent tournaments from our client, so there is not a lot we can do if we wanted to switch location of how they did last season since there isn't a full article about it, just a sentence. Design is intuitive and paragraphs are split up appropriately on about page.
+
+  [Include evidence of your user testing process.]
+
+  ![](user2Brian.pdf)
 
 #### Participant 3
 
