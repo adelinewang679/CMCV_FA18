@@ -485,17 +485,18 @@ dt{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 50px 70px;
+  margin: 60px auto;
+  width: 75%;
   align-items: flex-start;
 }
 
 .img_column {
   flex: 22%;
-  padding: 0 7px;
+  padding: 0 5px;
 }
 
 .img_column img {
-  margin: 7px 0;
+  margin: 5px 0;
   vertical-align: middle;
   width: 100%;
   cursor: pointer;

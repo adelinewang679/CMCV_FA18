@@ -97,7 +97,7 @@ $( window ).resize(function() {
     $("#largeImgContainer *").css("display","none");
   });
 
-  $("#leftarrow").click(function() {
+  function moveleft() {
     if(imgpointer.prev().attr("src")==undefined) {
       if (imgpointer.parent().prev().children("img:last").attr("src") != undefined)
         imgpointer = imgpointer.parent().prev().children("img:last");
@@ -106,9 +106,9 @@ $( window ).resize(function() {
       imgpointer = imgpointer.prev()
     }
     $("#largeImg").attr("src",imgpointer.attr("src"));
-  });
+  };
 
-  $("#rightarrow").click(function() {
+  function moveright() {
     if(imgpointer.next().attr("src")==undefined) {
       if (imgpointer.parent().next().children("img:first").attr("src") != undefined)
         imgpointer = imgpointer.parent().next().children("img:first");
@@ -117,6 +117,21 @@ $( window ).resize(function() {
       imgpointer = imgpointer.next()
     }
     $("#largeImg").attr("src",imgpointer.attr("src"));
+  }
+
+  $(document).keydown(function(e) {
+    if ($("#largeImgContainer").css("display") != "none") {
+      if (e.key == "ArrowLeft") moveleft();
+      if (e.key == "ArrowRight") moveright();
+    }
+  });
+
+  $("#leftarrow").click(function() {
+    moveleft();
+  });
+
+  $("#rightarrow").click(function() {
+    moveright();
   });
 
   //This is the interactivity for player titles
