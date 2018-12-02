@@ -687,7 +687,7 @@ footer p {
     margin-right: 0;
   }
   textarea{
-    width: 80%;
+    width: 90%;
   }
 
   button{
@@ -698,15 +698,12 @@ footer p {
     font-size: 20px;
   }
 
-  .alignL{
+  .alignL, #positionq{
     font-size: 16px;
-    display: inline-block;
-    width: 15%;
-    text-align:left;
-  }
-
-  #positionq{
     display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
   }
 
   #positions_block{
@@ -725,6 +722,8 @@ footer p {
 
   #formIntro, #formWelcome {
     font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   #aboutq, #positionq {
@@ -921,14 +920,16 @@ footer p {
 
   #formIntro, #formWelcome {
     font-size: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 
   #aboutq, #positionq {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .alignL{
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
     width:20%;
     text-align:right;
