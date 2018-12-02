@@ -248,9 +248,9 @@ Task 1: Look for the team's tournament and practice schedule this semester.
 
 Task 2: Fill out the interest form.
 
-Task 3: How many people are on the team?
+Task 3: Look for how many people there are on the team.
 
-Task 4: How did the team do in the most recent season?
+Task 4: Look for how the team did on the last season.
 
 ### Client Meeting (Milestone 2)
 
