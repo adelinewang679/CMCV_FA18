@@ -866,6 +866,12 @@ footer p {
 
   /*ROSTER END*/
 
+  /* SCHEDULE START */
+  #schedule18, #schedule19 {
+    margin: 30px 4% 40px 5%;
+  }
+  /* SCHEDULE END */
+
   /*NEWS START*/
   .timeline::after {
     left: 10%;
