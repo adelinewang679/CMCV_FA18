@@ -337,7 +337,7 @@ Format:
 
 - Task #3
     - **Task Description** (What was the task for this user?)
-      - How many people are on the team?
+      - Look for how many people there are on the team.
     - **How did the user do? Did that meet your expectation?**
       - User went to the about page first, then went to the roster most likely because she does not have a sports background.
       - Did not meet expectations initially.
@@ -352,7 +352,7 @@ Format:
 
 - Task #4
   - **Task Description** (What was the task for this user?)
-    - How did the team do in the most recent season?
+    - Look for how the team did on the last season.
   - **How did the user do? Did that meet your expectation?**
     - User went to the about page right away and immediately found it in the paragraph
     - User exceeded expectations
@@ -417,7 +417,7 @@ Yes.
 
 - Task #3
     - **Task Description** (What was the task for this user?)
-      - How many people are on the team?
+      - Look for how many people there are on the team.
     - **How did the user do? Did that meet your expectation?**
       - Met expectations
       - Went straight to roster page and counted the players.
@@ -432,7 +432,7 @@ Yes.
 
 - Task #4
   - **Task Description** (What was the task for this user?)
-    - How did the team do in the most recent season?
+    - Look for how the team did on the last season.
   - **How did the user do? Did that meet your expectation?**
     - User went to the news page first and then went to the about page.
     - Immediately found the info on the about page
