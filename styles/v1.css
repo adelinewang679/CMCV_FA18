@@ -600,6 +600,7 @@ footer p {
   /* ROSTER PAGE */
   .threeProfs{
     flex-wrap: wrap;
+    margin: 3%;
   }
   #allProfs{
     display:flex;
@@ -610,8 +611,19 @@ footer p {
   .prof1 , .prof2 , .prof3{
     margin: 20px;
     text-align: center;
-    width: 80%;
+    width: 90%;
   }
+
+  .prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
+    /* display: block;
+    border-right: none; */
+    font-size: 0.92em;
+  }
+
+  .prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
+    font-size: 1.2em;
+  }
+
   /*ROSTER END*/
 
   /*SCHEDULE START*/
@@ -800,7 +812,8 @@ footer p {
 
   /* ROSTER PAGE */
   .threeProfs{
-    flex-wrap: wrap;
+    margin-left:20px;
+    margin-right: 20px;
   }
 
   #allProfs{
@@ -813,8 +826,19 @@ footer p {
   .prof1 , .prof2 , .prof3{
     margin: 20px;
     text-align: center;
-    /* width: 40%; */
+    width: 30%;
   }
+
+  .prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
+    display: block;
+    border-right: none;
+    font-size: 0.84em;
+  }
+
+  .prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
+    font-size: 1.1em;
+  }
+
 
   /*ROSTER END*/
 
