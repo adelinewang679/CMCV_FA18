@@ -5,6 +5,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link href='https://fonts.googleapis.com/css?family=Roboto%20Slab' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/v1.css">
   <script src="scripts/jquery-3.3.1.min.js"></script>
   <script src="scripts/interactivity.js" type="text/javascript"></script>
@@ -42,25 +43,25 @@
     <form id="interest_form" method=POST action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
       <!--NEED EMAIL THING-->
       <div id="name_block">
-        <label class= alignL>Name: </label>
+        <label class= alignL>Name </label>
         <input  id="nameValue" type="text" name="Name" required/>
         <p class="hidden feedback" id=nameFeedback>**Please provide a valid name**</p>
       </div>
 
       <div id="email_block">
-        <label class=alignL>Email: </label>
+        <label class=alignL>Email </label>
         <input id=email type="email" name="Email" required/>
         <p class="hidden feedback" id=emailFeedback>**Please provide a valid email**</p>
       </div>
 
       <div id=year>
-        <label class= alignL id="yearq">Year:</label>
+        <label class= alignL id="yearq">Year</label>
         <input id="class_year" type="text" name="Class_year" required>
         <p class="hidden feedback" id=yearFeedback>**Please fill out graduation year**</p>
       </div>
 
       <div id="positions_block">
-        <p id="positionq">Position(s):</p>
+        <p id="positionq" class=alignL>Position(s)</p>
 
         <div id=position_Options>
           <div>
@@ -89,7 +90,7 @@
       </div>
 
       <div>
-        <label id="aboutq">Tell us about yourself:</label>
+        <label id="aboutq">Tell us about yourself</label>
         <textarea id="about_u" rows="15" cols="80" name="Message" placeholder="Please enter your message here" form="interest_form" required></textarea>
         <p class="hidden feedback" id=messageFeedback>**Please write your message here**</p>
       </div>
