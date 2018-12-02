@@ -140,17 +140,17 @@ Example:
 - PC Version
 
 Home(About)
-![](sketch_about.jpg)
+![](finalsketch_desktop_about.jpg)
 Roster
-![](sketch_roster.jpg)
+![](finalsketch_desktop_roster.jpg)
 Schedule
-![](sketch_schedule.jpg)
+![](finalsketch_desktop_schedule.jpg)
 News
-![](sketch_news.jpg)
-Form
-![](sketch_form.jpg)
+![](finalsketch_desktop_news.jpg)
+Contact Us
+![](finalsketch_desktop_contactus.jpg)
 Gallery
-![](sketch_gallery.jpg)
+![](finalsketch_desktop_gallery.jpg)
 
 - Mobile Version
 
