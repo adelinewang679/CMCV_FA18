@@ -240,34 +240,39 @@ button{
 /*Form End*/
 
 /*About Page*/
+
+#aboutGroup{
+  display:flex;
+  align-items: flex-start;
+  margin: 70px auto;
+  width: 74%;
+}
+
 #about_description_group{
-  width:50%;
-  margin-left: 40px;
+  flex: 45%;
+  margin-left: 30px;
 }
 
 #about_description_group p{
   font-size: 17px;
   line-height: 130%;
+  width: 100%;
 }
 
 #about_description_group p:last-child{
   margin-top: 30px;
 }
 
+#aboutImgContainer{
+  flex: 45%;
+}
+
 #aboutImg{
-  flex-grow: 1;
-  width: 50%;
-  height: 50%;
+  width: 100%;
   -webkit-filter: drop-shadow(0 0 5px grey);
   filter: drop-shadow(0 0 5px grey)
 }
 
-#aboutGroup{
-  display:flex;
-  align-items: flex-start;
-  margin: 70px auto;
-  width: 70%;
-}
 
 /*About Page End*/
 
@@ -726,18 +731,22 @@ footer p {
   /*FORM END*/
 
   /*INDEX START*/
-  #aboutImg{
+  #aboutGroup{
+    flex-wrap: wrap;
+    margin-top: 40px;
     width: 80%;
   }
-
+  #aboutImgContainer{
+    flex: 80%;
+  }
   #about_description_group{
-    width: 90%;
-    text-align: center;
-    font-size: 20px;
+    flex: 80%;
+    margin-top: 40px;
+    padding: 0;
   }
 
-  #about_description1, #about_description2{
-    font-size: 20px;
+  #about_description_group p{
+    font-size: 16px;
   }
 
   /*INDEX END*/
@@ -807,6 +816,23 @@ footer p {
     border: none;
   }
   /* HEADER END */
+
+  /* ABOUT START */
+  #aboutGroup{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 80%;
+  }
+  #aboutImgContainer{
+    flex: 80%;
+  }
+  #about_description_group{
+    flex: 80%;
+    margin-top: 40px;
+    padding: 0;
+ }
+
+  /* ABOUT END */
 
   /* ROSTER PAGE */
   .threeProfs{
@@ -898,13 +924,4 @@ footer p {
 
   /*FORM END*/
 
-  /*INDEX START*/
-  #aboutImg{
-    width: 90%;
-  }
-
-  #about_description_group{
-    width: 90%;
-  }
-  /*INDEX END*/
 }
