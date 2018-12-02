@@ -228,7 +228,8 @@ textarea:focus {
 }
 
 button{
-  margin: 30px;
+  display: block;
+  margin: 30px auto;
   margin-bottom: 50px;
   border-radius: 3px;
   border: none;
