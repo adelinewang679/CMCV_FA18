@@ -602,6 +602,7 @@ footer p {
 
   nav a{
     border: none;
+    text-align: left;
   }
   /* HEADER END */
 
@@ -672,11 +673,11 @@ footer p {
 
   /* GALLERY START */
   #gallerybox {
-    margin: 30px 20px;
+    margin: 30px auto;
   }
 
   .img_column {
-    flex: 80%;
+    flex: 100%;
     padding: 0 7px;
   }
   /* GALLERY END */
@@ -819,6 +820,7 @@ footer p {
 
   nav a{
     border: none;
+    text-align: left;
   }
   /* HEADER END */
 
