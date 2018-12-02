@@ -547,7 +547,10 @@ footer p {
   header {
     display:flex;
     flex-direction: column;
-    background-image: url("../images/test2.jpg");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.15)
+      ),url("../images/test2.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -762,7 +765,10 @@ footer p {
   header {
     display:flex;
     flex-direction: column;
-    background-image: url("../images/test2.jpg");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.15)
+      ),url("../images/test2.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -785,7 +791,7 @@ footer p {
 
   h1 {
     border:none;
-    background-color:rgba(0,0,0,0);
+    /* background-color:rgba(0,0,0,0); */
     color: white;
     padding: 10% 5% 15% 5%;
     text-align: center;
@@ -890,6 +896,7 @@ footer p {
   .left::after, .right::after {
     left: 5%;
   }
+
   /*NEWS END*/
 
   /* GALLERY START */
