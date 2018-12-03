@@ -153,7 +153,26 @@ Gallery
 ![](finalsketch_desktop_gallery.jpg)
 
 - Mobile Version
+FINAL SKETCHES:
 
+About
+![](finalsketch_mobile_about.jpg)
+Form
+![](finalsketch_mobile_contact.jpg)
+Roster
+![](finalsketch_mobile_roster.jpg)
+Schedule
+![](finalsketch_mobile_schedule.jpg)
+News
+![](finalsktech_mobile_news.jpg)
+
+Gallery
+![](finalsketch_mobile_gallery.jpg)
+Menu(when menu button is selected)
+![](sketch_m_menu.jpg)
+*NOTE: this is the same as the exploratory*
+
+EXPLORATORY SKETCHES:
 Home(About)
 ![](sketch_m_about.jpg)
 Roster
