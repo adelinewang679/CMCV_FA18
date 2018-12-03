@@ -149,14 +149,15 @@ label, .alignL {
   text-align: right;
 }
 
-.hidden{
-  display: none;
-}
-
 .feedback{
   font-size: 110%;
   color: red;
   margin-top: 5px;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
 }
 
 #name_block, #email_block, #year{
