@@ -137,6 +137,19 @@ Example:
 
 PC:
 
+Home(About)
+![](sketch_about.jpg)
+Roster
+![](sketch_roster.jpg)
+Schedule
+![](sketch_schedule.jpg)
+News
+![](sketch_news.jpg)
+Form
+![](sketch_form.jpg)
+Gallery
+![](sketch_gallery.jpg)
+
 Tablet:
 
 Home(About)
