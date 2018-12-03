@@ -135,9 +135,59 @@ Example:
 
 [Include exploratory idea sketches of your website.]
 
+PC:
+
+Home(About)
+![](sketch_about.jpg)
+Roster
+![](sketch_roster.jpg)
+Schedule
+![](sketch_schedule.jpg)
+News
+![](sketch_news.jpg)
+Form
+![](sketch_form.jpg)
+Gallery
+![](sketch_gallery.jpg)
+
+Tablet:
+
+Home(About)
+![](sketch_tablet_about.jpg)
+Roster
+![](sketch_tablet_roster.jpg)
+Schedule
+![](sketch_tablet_schedule.jpg)
+News
+![](sketch_tablet_news.jpg)
+Form
+![](sketch_tablet_form.jpg)
+Gallery
+![](sketch_tablet_about_gallery.jpg)
+
+
+Mobile:
+
+Home(About)
+![](sketch_m_about.jpg)
+Roster
+![](sketch_m_roster.jpg)
+Schedule
+![](sketch_m_schedule.jpg)
+News
+![](skech_m_news.jpg)
+Form
+![](sketch_m_form.jpg)
+Gallery
+![](sketch_m_gallery.jpg)
+Menu(when menu button is selected)
+![](sketch_m_menu.jpg)
+
+
+
 [Include sketches of your finalized design.]
 
-- PC Version
+PC:
 
 Home(About)
 ![](finalsketch_desktop_about.jpg)
@@ -152,22 +202,28 @@ Contact Us
 Gallery
 ![](finalsketch_desktop_gallery.jpg)
 
-- Mobile Version
+Tablet:
 
-Home(About)
-![](sketch_m_about.jpg)
-Roster
-![](sketch_m_roster.jpg)
-Schedule
-![](sketch_m_schedule.jpg)
-News
-![](sketch_m_news.jpg)
+Mobile:
+
+About
+![](finalsketch_mobile_about.jpg)
 Form
-![](sketch_m_form.jpg)
+![](finalsketch_mobile_contact.jpg)
+Roster
+![](finalsketch_mobile_roster.jpg)
+Schedule
+![](finalsketch_mobile_schedule.jpg)
+News
+![](finalsktech_mobile_news.jpg)
+
 Gallery
-![](sketch_m_gallery.jpg)
+![](finalsketch_mobile_gallery.jpg)
 Menu(when menu button is selected)
 ![](sketch_m_menu.jpg)
+*NOTE: this is the same as the exploratory*
+
+
 
 #### Interactivity
 
