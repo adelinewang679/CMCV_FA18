@@ -436,7 +436,7 @@ Yes.
   - **How did the user do? Did that meet your expectation?**
     - User went to the news page first and then went to the about page.
     - Immediately found the info on the about page
-    - Initially did not meet expectations, but
+    - Initially did not meet expectations, but found info quickly once on right page.
   - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
     - User really liked the team picture and called them "heartbreakers"
   - **Your reflections about the user’s performance to the task**
@@ -453,13 +453,80 @@ Yes.
 #### Participant 3
 
 1. Who is your participant, e.g., what is their name, where do they comes from, what is their job, characteristics, etc.?
-
+Eliza Christman-Cohen is a junior at Cornell University studying Earth and Environmental Sciences. She's from NYC from an upper-class family and played volleyball in high school.
 
 2. Does your participant belong to your target audience of the site? (Yes / No)
 
 [If “No”, what’s your strategy of associating the user test results to your target audience’s needs and wants? How can your re-design choices based on the user tests make a better fit for the target audience?]
+Yes
+
 
 [Fill this out like you did for Participant 1 above]
+
+- Task #1
+  - **Task Description** (What was the task for this user?)
+    - Look for the team's tournament and practice schedule this semester.
+  - **How did the user do? Did that meet your expectation?**
+    - Went straight to the schedule tab and found it immediately.
+    - Met expectations
+  - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+    - User thought that the overall website design was very sleek and looked nice.
+  - **Your reflections about the user’s performance to the task**
+    - User had no problems completing the task.
+  - **Re-design choices**
+    - None.
+  - **Memo** (Justify your decisions; additional notes.)
+    - User had no problem with task, so this doesn't warrant a redesign
+
+- Task #2
+    - **Task Description** (What was the task for this user?)
+      - Fill out the interest form
+    - **How did the user do? Did that meet your expectation?**
+      - User went straight to contact us tab and filled out all fields in the form, but was unsure about whether the position was relevant to the query.
+      - User met expectations
+      - Message contained question about if there were manager positions open.
+    - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+      - User said they liked the form.
+    - **Your reflections about the user’s performance to the task**
+      - User filled out form efficienctly
+    - **Re-design choices**
+      - Indicate which fields are required. Put asterisks next to the label.
+    - **Memo** (Justify your decisions; additional notes.)
+      - For users a part of the target audience that are not recruits and do not have a position, it will be clear that they don't have to fill this field out.
+
+- Task #3
+    - **Task Description** (What was the task for this user?)
+      - Look for how many people there are on the team.
+    - **How did the user do? Did that meet your expectation?**
+      - Met expectations
+      - Went straight to roster page and counted the players.
+    - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+      - User recognized people on the roster and liked the pictures.
+      - User liked the captain interactivity.
+    - **Your reflections about the user’s performance to the task**
+      - User completed task quickly and effectively while interacting with roster.
+    - **Re-design choices**
+      - None.
+    - **Memo** (Justify your decisions; additional notes.)
+      - User had no problem completing task and enjoyed design.
+
+- Task #4
+  - **Task Description** (What was the task for this user?)
+    - Look for how the team did on the last season.
+  - **How did the user do? Did that meet your expectation?**
+    - User went to the news page and found the article that said 2018.
+    - Did not meet expectations
+  - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+    - User liked the timeline set up
+  - **Your reflections about the user’s performance to the task**
+    - User went to the wrong page and did not find the correct information that was on the About page.
+  - **Re-design choices**
+    - None.
+  - **Memo** (Justify your decisions; additional notes.)
+    - We haven't received updated news articles about the most recent tournaments from our client, so there is not a lot we can do if we wanted to switch location of how they did last season since there isn't a full article about it, just a sentence. Once we get updated articles, we will include those in the timeline instead of the old about description.
+
+  [Include evidence of your user testing process.]
+  ![](user3Eliza.pdf)
 
 ### Changes Based on User Testing (Final Submission)
 
