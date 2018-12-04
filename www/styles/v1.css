@@ -12,534 +12,750 @@ header {
   display: flex;
   flex-direction: column;
   /** Header Image Source: http://www.eldonlindsayphotography.com/blog/2018/9/2/labor-day-weekend-recap-cornell-sports **/
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.55),
-    rgba(0, 0, 0, 0.3)
-    ),url("../images/test2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.3)
+  ),url("../images/test2.jpg");
+  background-position:50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 400px;
+}
 
-    background-position:50% 20%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    height: 400px;
+#header_citation{
+  margin-top:60px;
+  width:100%;
+  text-align:right;
+  font-size:7pt;
+}
+
+#header_citation a{
+  color:white;
+  text-decoration:none;
+  font-family: serif;
+}
+
+#mobilemenu {
+  display:none;
+}
+
+h1 {
+  display: inline-block;
+  margin: 30px 0 0 0 ;
+  padding: 60px 50px;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 1.2px;
+  text-shadow: 0 0 5px rgba(255,255,255,0.8);
+}
+
+.logo {
+  padding: 20px;
+}
+
+nav{
+  padding: 25px 50px;
+}
+
+.menu {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav a{
+  display: inline-block;
+  text-align: center;
+  /* border: 1px solid white; */
+  width: 90px;
+  padding: 7px 0;
+  color: white;
+  text-decoration: none;
+  border-bottom: transparent 1px solid;
+}
+
+nav a:hover {
+  /* interactivity demo, change the hover action later */
+  /* background-color: rgba(255,255,255,0.3); */
+  border-bottom: white 1px solid;
+}
+
+/* COMMON CODE FOR ALL PAGES START */
+
+/* HEADER END */
+
+/* MAIN START */
+
+.page_title{
+  margin: 40px 0 20px 0;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#left_line {
+  flex-grow: 2;
+  border: 1px solid black;
+}
+
+#right_line {
+  flex-grow: 6;
+  border: 1px solid black;
+}
+
+h2 {
+  padding: 0 20px;
+  /* border: solid black 1px; */
+  /* letter-spacing: inherit; */
+  /* font-family: 'Roboto Slab'; */
+  font-size: 28px;
+  font-weight: normal;
+  font-variant:small-caps;
+}
+
+/*FORM START*/
+#interest_form{
+  margin: 40px;
+}
+
+#formWelcome{
+  color: darkred;
+  font-size: 2.4em;
+  font-weight: normal;
+  display:block;
+  text-align: center;
+  margin: 50px 0 0 0;
+  padding: 5px;
+  text-shadow: 0 0 1px darkred;
+}
+
+#formIntro{
+  font-size: 1.8em;
+  font-weight: normal;
+  margin: 30px 0 80px 0;
+  text-align: center;
+  font-variant: normal;
+}
+
+label, .alignL {
+  font-size: 1.2em;
+}
+
+.alignL{
+  display: inline-block;
+  width: 44%;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.feedback{
+  font-size: 110%;
+  color: red;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+
+#name_block, #email_block, #year{
+  margin:22px;
+}
+
+#position_Options{
+  text-align:left;
+  display:inline-block;
+  margin-bottom: 30px;
+}
+
+input, #position_Options{
+  width: 180px;
+}
+
+.boxes{
+  width:inherit;
+}
+
+.pOption{
+  font-size: 1em;
+}
+
+#positionq{
+  vertical-align: top;
+  padding-top:3px;
+}
+
+#aboutq{
+  margin-top:20px;
+  text-align: center;
+  display: block;
+}
+
+#about_u{
+  display:block;
+  margin:auto;
+  margin-top:10px;
+}
+
+.boxes{
+  margin:10px;
+}
+
+/* below this fixed */
+
+input {
+  padding: 3px;
+  background-color:#f1f1f1;
+  border: #f1f1f1;
+}
+
+input:focus {
+  outline:none;
+  padding: 3px;
+  background-color:#ddd;
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 3px;
+  border: lightgray 1px solid;
+  resize: none;
+}
+
+textarea:focus {
+  outline:none;
+}
+
+button{
+  display: block;
+  margin: 30px auto;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  border: none;
+  background-color: darkred;
+  color: white;
+  padding: 10px 50px;
+}
+
+/*Form End*/
+
+/*About Page*/
+
+#aboutGroup{
+  display:flex;
+  align-items: flex-start;
+  margin: 70px auto;
+  width: 74%;
+}
+
+#about_description_group{
+  flex: 45%;
+  margin-left: 30px;
+}
+
+#about_description_group p{
+  font-size: 17px;
+  line-height: 130%;
+  width: 100%;
+}
+
+#about_description_group p:last-child{
+  margin-top: 30px;
+}
+
+#aboutImgContainer{
+  flex: 45%;
+}
+
+#aboutImg{
+  width: 100%;
+  -webkit-filter: drop-shadow(0 0 5px grey);
+  filter: drop-shadow(0 0 5px grey)
+}
+
+
+/*About Page End*/
+
+/*Schedule Page*/
+
+#schedule18, #schedule19 {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 10% 40px 15%;
+}
+
+#tournament18, #tournament19 {
+  margin-right: 8%;
+  width:50%;
+}
+
+#practice18 p, #practice19 p{
+  margin-top: 10px;
+}
+
+table {
+  color: #333;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+td, th {
+  border: 1px solid transparent;
+  height: 30px;
+}
+
+th {
+  background: #cdcdcd;
+  font-weight: bold;
+}
+
+td {
+  background: #FAFAFA;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.leftcol {
+  width: 150px;
+}
+
+.rightcol {
+  width: 350px;
+}
+
+/*Schedule Page End*/
+
+/*News Page*/
+
+.timeline {
+  position: relative;
+  margin: 2% 7% 5% 7%;
+}
+
+/* the ruler */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  background-color: #cdcdcd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.container {
+  padding: 10px;
+  position: relative;
+  background-color:#e3e3e3;
+  width: 50%;
+}
+
+/* circles */
+.container::after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  border: 4px solid darkred;
+  top: 15px;
+  border-radius: 40%;
+  z-index: 1;
+  width: 25px;
+  height: 25px;
+  right: -15px;
+}
+
+/* making sure everything fits */
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.right::after {
+  left: -15px;
+}
+
+.content {
+  padding: 20px;
+  background-color: #e3e3e3;
+  position: relative;
+}
+
+.content h2 {
+  border-style: none;
+  font-weight: bold;
+  padding:0;
+}
+
+.content h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/*News Page End*/
+
+/* ROSTER PAGE */
+
+.threeProfs{
+  display:flex;
+  flex-direction: row;
+  margin: 30px 50px;
+  justify-content:center;
+}
+.prof1 , .prof2 , .prof3{
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  width: 23%;
+}
+.title1, .title2, .title3, .title4, .title5, .title6, .title7, .title8,
+.title9, .title10, .title11, .title12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #9c2020;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+}
+
+/* temmp*/
+strong {
+  display:none;
+}
+
+.prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
+  margin: 0px;
+  display: inline-block;
+  border-right: 1px solid black;
+  padding: 0 5px;
+  font-size: 0.9em;
+}
+
+.prof1 dl dt:last-of-type, .prof2 dl dt:last-of-type, .prof3 dl dt:last-of-type{
+  border-right: none;
+}
+
+.prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #9c2020;
+  margin: 10px 0 3px 0;
+  display: block;
+  border-right: none;
+  padding: 0 10px;
+}
+
+
+dt{
+  margin: 7px;
+}
+
+#player1, #player2, #player3, #player4, #player5, #player6, #player7, #player8, #player9, #player10, #player11, #player12, #player13, #player14, #player15, #player16, #player17, #player18 {
+  width: 100%;
+}
+/*ROSTER END*/
+
+/* GALLERY START */
+#largeImgContainer {
+  margin: 50px 70px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#largeImg {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#largeImgContainer, #largeImgContainer * {
+  display:none;
+}
+
+#leftarrow, #rightarrow {
+  cursor: pointer;
+}
+
+#gallerybox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 60px auto;
+  width: 75%;
+  align-items: flex-start;
+}
+
+.img_column {
+  flex: 22%;
+  padding: 0 5px;
+}
+
+.img_column img {
+  margin: 5px 0;
+  vertical-align: middle;
+  width: 100%;
+  cursor: pointer;
+}
+
+.img_column img:hover {
+  opacity: 0.6;
+}
+
+#largeImg:hover {
+  opacity: 0.9;
+}
+/* GALLERY END */
+
+/* MAIN END */
+
+/* FOOTER START */
+
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  padding: 30px 20px;
+  background-color: #3b3b3b;
+  color: white;
+}
+
+footer p {
+  padding: 0 50px 0 0;
+}
+
+/* FOOTER END */
+
+/* COMMON CODE FOR ALL PAGES END */
+
+@media screen and (max-width:600px){
+
+  body,html{
+    overflow-x: hidden;
   }
 
-  #header_citation{
-    margin-top:60px;
-    width:100%;
-    text-align:right;
-    font-size:7pt;
-  }
-
-  #header_citation a{
-    color:white;
-    text-decoration:none;
-    font-family: serif;
-  }
-
-  #mobilemenu {
-    display:none;
-  }
-
-  h1 {
-    display: inline-block;
-    margin: 30px 0 0 0 ;
-    padding: 60px 50px;
-    color: white;
-    font-size: 40px;
-    letter-spacing: 1.2px;
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
-  }
-
-  .logo {
-    padding: 20px;
-  }
-
-  nav{
-    padding: 25px 50px;
-  }
-
-  .menu {
-    display: inline-block;
-    margin: 0 20px;
-  }
-
-  nav a{
-    display: inline-block;
-    text-align: center;
-    /* border: 1px solid white; */
-    width: 90px;
-    padding: 7px 0;
-    color: white;
-    text-decoration: none;
-    border-bottom: transparent 1px solid;
-  }
-
-  nav a:hover {
-    /* interactivity demo, change the hover action later */
-    /* background-color: rgba(255,255,255,0.3); */
-    border-bottom: white 1px solid;
-  }
-
-  /* COMMON CODE FOR ALL PAGES START */
-
-  /* HEADER END */
-
-  /* MAIN START */
-
-  .page_title{
-    margin: 40px 0 20px 0;
+  /* HEADER START */
+  header {
     display:flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  #left_line {
-    flex-grow: 2;
-    border: 1px solid black;
-  }
-
-  #right_line {
-    flex-grow: 6;
-    border: 1px solid black;
-  }
-
-  h2 {
-    padding: 0 20px;
-    /* border: solid black 1px; */
-    /* letter-spacing: inherit; */
-    /* font-family: 'Roboto Slab'; */
-    font-size: 28px;
-    font-weight: normal;
-    font-variant:small-caps;
-  }
-
-  /*FORM START*/
-  #interest_form{
-    margin: 40px;
-  }
-
-  #formWelcome{
-    color: darkred;
-    font-size: 2.4em;
-    font-weight: normal;
-    display:block;
-    text-align: center;
-    margin: 50px 0 0 0;
-    padding: 5px;
-    text-shadow: 0 0 1px darkred;
-  }
-
-  #formIntro{
-    font-size: 1.8em;
-    font-weight: normal;
-    margin: 30px 0 80px 0;
-    text-align: center;
-    font-variant: normal;
-  }
-
-  label, .alignL {
-    font-size: 1.2em;
-  }
-
-  .alignL{
-    display: inline-block;
-    width: 44%;
-    margin-right: 10px;
-    text-align: right;
-  }
-
-  .feedback{
-    font-size: 110%;
-    color: red;
-    margin-top: 5px;
-    text-align: center;
-  }
-
-  .hidden{
-    display: none;
-  }
-
-  #name_block, #email_block, #year{
-    margin:22px;
-  }
-
-  #position_Options{
-    text-align:left;
-    display:inline-block;
-    margin-bottom: 30px;
-  }
-
-  input, #position_Options{
-    width: 180px;
-  }
-
-  .boxes{
-    width:inherit;
-  }
-
-  .pOption{
-    font-size: 1em;
-  }
-
-  #positionq{
-    vertical-align: top;
-    padding-top:3px;
-  }
-
-  #aboutq{
-    margin-top:20px;
-    text-align: center;
-    display: block;
-  }
-
-  #about_u{
-    display:block;
-    margin:auto;
-    margin-top:10px;
-  }
-
-  .boxes{
-    margin:10px;
-  }
-
-  /* below this fixed */
-
-  input {
-    padding: 3px;
-    background-color:#f1f1f1;
-    border: #f1f1f1;
-  }
-
-  input:focus {
-    outline:none;
-    padding: 3px;
-    background-color:#ddd;
-  }
-
-  textarea {
-    padding: 10px;
-    border-radius: 3px;
-    border: lightgray 1px solid;
-    resize: none;
-  }
-
-  textarea:focus {
-    outline:none;
-  }
-
-  button{
-    display: block;
-    margin: 30px auto;
-    margin-bottom: 50px;
-    border-radius: 3px;
-    border: none;
-    background-color: darkred;
-    color: white;
-    padding: 10px 50px;
-  }
-
-  /*Form End*/
-
-  /*About Page*/
-
-  #aboutGroup{
-    display:flex;
-    align-items: flex-start;
-    margin: 70px auto;
-    width: 74%;
-  }
-
-  #about_description_group{
-    flex: 45%;
-    margin-left: 30px;
-  }
-
-  #about_description_group p{
-    font-size: 17px;
-    line-height: 130%;
-    width: 100%;
-  }
-
-  #about_description_group p:last-child{
-    margin-top: 30px;
-  }
-
-  #aboutImgContainer{
-    flex: 45%;
-  }
-
-  #aboutImg{
-    width: 100%;
-    -webkit-filter: drop-shadow(0 0 5px grey);
-    filter: drop-shadow(0 0 5px grey)
-  }
-
-
-  /*About Page End*/
-
-  /*Schedule Page*/
-
-  #schedule18, #schedule19 {
-    display: flex;
-    flex-direction: row;
-    margin: 30px 10% 40px 15%;
-  }
-
-  #tournament18, #tournament19 {
-    margin-right: 8%;
-    width:50%;
-  }
-
-  #practice18 p, #practice19 p{
-    margin-top: 10px;
-  }
-
-  table {
-    color: #333;
-    border-collapse: collapse;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-
-  td, th {
-    border: 1px solid transparent;
-    height: 30px;
-  }
-
-  th {
-    background: #cdcdcd;
-    font-weight: bold;
-  }
-
-  td {
-    background: #FAFAFA;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .leftcol {
-    width: 150px;
-  }
-
-  .rightcol {
-    width: 350px;
-  }
-
-  /*Schedule Page End*/
-
-  /*News Page*/
-
-  .timeline {
-    position: relative;
-    margin: 2% 7% 5% 7%;
-  }
-
-  /* the ruler */
-  .timeline::after {
-    content: '';
-    position: absolute;
-    width: 10px;
-    background-color: #cdcdcd;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -5px;
-  }
-
-  .container {
-    padding: 10px;
-    position: relative;
-    background-color:#e3e3e3;
-    width: 50%;
-  }
-
-  /* circles */
-  .container::after {
-    content: '';
-    position: absolute;
-    background-color: white;
-    border: 4px solid darkred;
-    top: 15px;
-    border-radius: 40%;
-    z-index: 1;
-    width: 25px;
-    height: 25px;
-    right: -15px;
-  }
-
-  /* making sure everything fits */
-  .left {
-    left: 0;
-  }
-
-  .right {
-    left: 50%;
-  }
-
-  .right::after {
-    left: -15px;
-  }
-
-  .content {
-    padding: 20px;
-    background-color: #e3e3e3;
-    position: relative;
-  }
-
-  .content h2 {
-    border-style: none;
-    font-weight: bold;
-    padding:0;
-  }
-
-  .content h3{
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-
-  /*News Page End*/
-
-  /* ROSTER PAGE */
-
-  .threeProfs{
-    display:flex;
-    flex-direction: row;
-    margin: 30px 50px;
-    justify-content:center;
-  }
-  .prof1 , .prof2 , .prof3{
-    margin: 30px;
-    text-align: center;
-    position: relative;
-    width: 23%;
-  }
-  .title1, .title2, .title3, .title4, .title5, .title6, .title7, .title8,
-  .title9, .title10, .title11, .title12 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #9c2020;
-    padding: 7px;
-    color: white;
-    font-weight: bold;
-  }
-
-  /* temmp*/
-  strong {
-    display:none;
-  }
-
-  .prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
-    margin: 0px;
-    display: inline-block;
-    border-right: 1px solid black;
-    padding: 0 5px;
-    font-size: 0.9em;
-  }
-
-  .prof1 dl dt:last-of-type, .prof2 dl dt:last-of-type, .prof3 dl dt:last-of-type{
-    border-right: none;
-  }
-
-  .prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #9c2020;
-    margin: 10px 0 3px 0;
-    display: block;
-    border-right: none;
-    padding: 0 10px;
-  }
-
-
-  dt{
-    margin: 7px;
-  }
-
-  #player1, #player2, #player3, #player4, #player5, #player6, #player7, #player8, #player9, #player10, #player11, #player12, #player13, #player14, #player15, #player16, #player17, #player18 {
-    width: 100%;
-  }
-  /*ROSTER END*/
-
-  /* GALLERY START */
-  #largeImgContainer {
-    margin: 50px 70px;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #largeImg {
-    display: inline-block;
-    cursor: pointer;
-  }
-
-  #largeImgContainer, #largeImgContainer * {
-    display:none;
-  }
-
-  #leftarrow, #rightarrow {
-    cursor: pointer;
-  }
-
-  #gallerybox {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 60px auto;
-    width: 75%;
-    align-items: flex-start;
-  }
-
-  .img_column {
-    flex: 22%;
-    padding: 0 5px;
-  }
-
-  .img_column img {
-    margin: 5px 0;
-    vertical-align: middle;
-    width: 100%;
-    cursor: pointer;
-  }
-
-  .img_column img:hover {
-    opacity: 0.6;
-  }
-
-  #largeImg:hover {
-    opacity: 0.9;
-  }
-  /* GALLERY END */
-
-  /* MAIN END */
-
-  /* FOOTER START */
-
-  footer {
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    padding: 30px 20px;
-    background-color: #3b3b3b;
-    color: white;
-  }
-
-  footer p {
-    padding: 0 50px 0 0;
-  }
-
-  /* FOOTER END */
-
-  /* COMMON CODE FOR ALL PAGES END */
-
-  @media screen and (max-width:600px){
+    flex-direction: column;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.15)
+      ),url("../images/test2.jpg");
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40%;
+    }
+
+    #header_citation a{
+      font-size:5pt;
+    }
+
+    #mobilemenu {
+      position:absolute;
+      z-index:200;
+      padding: 5px 7px;
+      font-size: 20px;
+      color: white;
+      display: block;
+      align-self: flex-start;
+    }
+
+    h1 {
+      border:none;
+      background-color:rgba(0,0,0,0);
+      color: white;
+      padding: 5% 5% 15% 5%;
+      text-align: center;
+    }
+
+    .logo {
+      padding: 20px;
+    }
+
+    nav{
+      z-index:100;
+      /* display: none; */
+      position: fixed;
+      background-color: #9c2020;
+      top: 0;
+      left: 0;
+      height: 100%;
+      padding: 50px 100px 30px 30px;
+    }
+
+    .menu {
+      display: block;
+      margin: 40px 20px;
+      font-size: 20px;
+    }
+
+    nav a{
+      border: none;
+      text-align: left;
+    }
+    /* HEADER END */
+
+    /* ROSTER PAGE */
+    .threeProfs{
+      flex-wrap: wrap;
+      margin: 3%;
+    }
+    #allProfs{
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 30px;
+    }
+    .prof1 , .prof2 , .prof3{
+      margin: 20px;
+      text-align: center;
+      width: 90%;
+    }
+
+    .prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
+      font-size: 0.92em;
+    }
+
+    .prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
+      font-size: 1.2em;
+    }
+
+    /*ROSTER END*/
+
+    /*SCHEDULE START*/
+    #schedule18, #schedule19 {
+      display: block;
+      margin: 0 10% 20px 10%;
+    }
+
+    #tournament18, #tournament19 {
+      display: block;
+      width:100%;
+      margin-bottom: 10px;
+    }
+
+    #practice18 p, #practice19 p{
+      margin-top: 10px;
+    }
+
+    /*SCHEDULE END*/
+
+    /*NEWS START*/
+    .timeline::after {
+      left: 10%;
+    }
+
+    .container {
+      width: 100%;
+      padding-left: 10%;
+      padding-right: 0;
+    }
+
+    .right {
+      left:0;
+    }
+
+    .left::after, .right::after {
+      left: 5%;
+    }
+    /*NEWS END*/
+
+    /* GALLERY START */
+    #gallerybox {
+      margin: 30px auto;
+    }
+
+    .img_column {
+      flex: 100%;
+      padding: 0 7px;
+    }
+    /* GALLERY END */
+
+    /*FORM START*/
+    form {
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+    }
+    textarea{
+      width: 90%;
+    }
+
+    button{
+      margin-bottom: 30px;
+    }
+
+    label {
+      font-size: 20px;
+    }
+
+    .alignL, #positionq{
+      font-size: 16px;
+      display: block;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    #positions_block{
+      display: block;
+      text-align: center;
+    }
+
+    #position_Options{
+      text-align: left;
+    }
+
+    .pOption{
+      font-size: 16px;
+      margin-bottom: 3px;
+    }
+
+    #formIntro, #formWelcome {
+      font-size: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    #aboutq, #positionq {
+      font-size: 16px;
+    }
+
+    /*FORM END*/
+
+    /*INDEX START*/
+    #aboutGroup{
+      flex-wrap: wrap;
+      margin-top: 40px;
+      width: 80%;
+    }
+    #aboutImgContainer{
+      flex: 80%;
+    }
+    #about_description_group{
+      flex: 80%;
+      margin-top: 40px;
+      padding: 0;
+    }
+
+    #about_description_group p{
+      font-size: 16px;
+    }
+
+    /*INDEX END*/
+  }
+
+  @media(min-width: 600px) and (max-width: 900px){
 
     body,html{
       overflow-x: hidden;
@@ -560,14 +776,14 @@ header {
       }
 
       #header_citation a{
-        font-size:5pt;
+        font-size:7pt;
       }
 
       #mobilemenu {
         position:absolute;
         z-index:200;
-        padding: 5px 7px;
-        font-size: 20px;
+        padding: 5px 10px;
+        font-size: 30px;
         color: white;
         display: block;
         align-self: flex-start;
@@ -575,9 +791,9 @@ header {
 
       h1 {
         border:none;
-        background-color:rgba(0,0,0,0);
+        /* background-color:rgba(0,0,0,0); */
         color: white;
-        padding: 5% 5% 15% 5%;
+        padding: 10% 5% 15% 5%;
         text-align: center;
       }
 
@@ -587,7 +803,7 @@ header {
 
       nav{
         z-index:100;
-        /* display: none; */
+        display: none;
         position: fixed;
         background-color: #9c2020;
         top: 0;
@@ -608,50 +824,60 @@ header {
       }
       /* HEADER END */
 
+      /* ABOUT START */
+      #aboutGroup{
+        flex-wrap: wrap;
+        margin-top: 40px;
+        width: 80%;
+      }
+      #aboutImgContainer{
+        flex: 80%;
+      }
+      #about_description_group{
+        flex: 80%;
+        margin-top: 40px;
+        padding: 0;
+      }
+
+      /* ABOUT END */
+
       /* ROSTER PAGE */
       .threeProfs{
-        flex-wrap: wrap;
-        margin: 3%;
+        margin-left:20px;
+        margin-right: 20px;
       }
+
       #allProfs{
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin: 30px;
       }
+
       .prof1 , .prof2 , .prof3{
         margin: 20px;
         text-align: center;
-        width: 90%;
+        width: 30%;
       }
 
       .prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
-        font-size: 0.92em;
+        display: block;
+        border-right: none;
+        font-size: 0.84em;
       }
 
       .prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
-        font-size: 1.2em;
+        font-size: 1.1em;
       }
+
 
       /*ROSTER END*/
 
-      /*SCHEDULE START*/
+      /* SCHEDULE START */
       #schedule18, #schedule19 {
-        display: block;
-        margin: 0 10% 20px 10%;
+        margin: 30px 4% 40px 5%;
       }
-
-      #tournament18, #tournament19 {
-        display: block;
-        width:100%;
-        margin-bottom: 10px;
-      }
-
-      #practice18 p, #practice19 p{
-        margin-top: 10px;
-      }
-
-      /*SCHEDULE END*/
+      /* SCHEDULE END */
 
       /*NEWS START*/
       .timeline::after {
@@ -671,276 +897,47 @@ header {
       .left::after, .right::after {
         left: 5%;
       }
+
       /*NEWS END*/
 
       /* GALLERY START */
-      #gallerybox {
-        margin: 30px auto;
+
+      #largeImgContainer {
+        margin: 50px 30px;
       }
 
       .img_column {
-        flex: 100%;
-        padding: 0 7px;
+        flex: 40%;
       }
       /* GALLERY END */
 
       /*FORM START*/
-      form {
-        margin-left: 0;
-        margin-right: 0;
-        text-align: center;
-      }
-      textarea{
-        width: 90%;
-      }
-
       button{
-        margin-bottom: 30px;
+        margin-bottom: 35px;
       }
 
-      label {
-        font-size: 20px;
-      }
-
-      .alignL, #positionq{
-        font-size: 16px;
-        display: block;
-        text-align: center;
-        width: 100%;
-        margin-bottom: 10px;
-      }
-
-      #positions_block{
-        display: block;
-        text-align: center;
-      }
-
-      #position_Options{
-        text-align: left;
-      }
-
-      .pOption{
-        font-size: 16px;
-        margin-bottom: 3px;
+      textarea{
+        width: 70%;
       }
 
       #formIntro, #formWelcome {
-        font-size: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+        font-size: 25px;
+        margin-left: 60px;
+        margin-right: 60px;
       }
 
       #aboutq, #positionq {
-        font-size: 16px;
+        font-size: 18px;
       }
+
+      .alignL{
+        font-size: 18px;
+        display: inline-block;
+        width:40%;
+        text-align:right;
+      }
+
 
       /*FORM END*/
 
-      /*INDEX START*/
-      #aboutGroup{
-        flex-wrap: wrap;
-        margin-top: 40px;
-        width: 80%;
-      }
-      #aboutImgContainer{
-        flex: 80%;
-      }
-      #about_description_group{
-        flex: 80%;
-        margin-top: 40px;
-        padding: 0;
-      }
-
-      #about_description_group p{
-        font-size: 16px;
-      }
-
-      /*INDEX END*/
     }
-
-    @media(min-width: 600px) and (max-width: 900px){
-
-      body,html{
-        overflow-x: hidden;
-      }
-
-      /* HEADER START */
-      header {
-        display:flex;
-        flex-direction: column;
-        background-image: linear-gradient(
-          rgba(0, 0, 0, 0.4),
-          rgba(0, 0, 0, 0.15)
-          ),url("../images/test2.jpg");
-          background-color: black;
-          background-repeat: no-repeat;
-          background-size: cover;
-          height: 40%;
-        }
-
-        #header_citation a{
-          font-size:7pt;
-        }
-
-        #mobilemenu {
-          position:absolute;
-          z-index:200;
-          padding: 5px 10px;
-          font-size: 30px;
-          color: white;
-          display: block;
-          align-self: flex-start;
-        }
-
-        h1 {
-          border:none;
-          /* background-color:rgba(0,0,0,0); */
-          color: white;
-          padding: 10% 5% 15% 5%;
-          text-align: center;
-        }
-
-        .logo {
-          padding: 20px;
-        }
-
-        nav{
-          z-index:100;
-          display: none;
-          position: fixed;
-          background-color: #9c2020;
-          top: 0;
-          left: 0;
-          height: 100%;
-          padding: 50px 100px 30px 30px;
-        }
-
-        .menu {
-          display: block;
-          margin: 40px 20px;
-          font-size: 20px;
-        }
-
-        nav a{
-          border: none;
-          text-align: left;
-        }
-        /* HEADER END */
-
-        /* ABOUT START */
-        #aboutGroup{
-          flex-wrap: wrap;
-          margin-top: 40px;
-          width: 80%;
-        }
-        #aboutImgContainer{
-          flex: 80%;
-        }
-        #about_description_group{
-          flex: 80%;
-          margin-top: 40px;
-          padding: 0;
-        }
-
-        /* ABOUT END */
-
-        /* ROSTER PAGE */
-        .threeProfs{
-          margin-left:20px;
-          margin-right: 20px;
-        }
-
-        #allProfs{
-          display:flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          margin: 30px;
-        }
-
-        .prof1 , .prof2 , .prof3{
-          margin: 20px;
-          text-align: center;
-          width: 30%;
-        }
-
-        .prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
-          display: block;
-          border-right: none;
-          font-size: 0.84em;
-        }
-
-        .prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
-          font-size: 1.1em;
-        }
-
-
-        /*ROSTER END*/
-
-        /* SCHEDULE START */
-        #schedule18, #schedule19 {
-          margin: 30px 4% 40px 5%;
-        }
-        /* SCHEDULE END */
-
-        /*NEWS START*/
-        .timeline::after {
-          left: 10%;
-        }
-
-        .container {
-          width: 100%;
-          padding-left: 10%;
-          padding-right: 0;
-        }
-
-        .right {
-          left:0;
-        }
-
-        .left::after, .right::after {
-          left: 5%;
-        }
-
-        /*NEWS END*/
-
-        /* GALLERY START */
-
-        #largeImgContainer {
-          margin: 50px 30px;
-        }
-
-        .img_column {
-          flex: 40%;
-        }
-        /* GALLERY END */
-
-        /*FORM START*/
-        button{
-          margin-bottom: 35px;
-        }
-
-        textarea{
-          width: 70%;
-        }
-
-        #formIntro, #formWelcome {
-          font-size: 25px;
-          margin-left: 60px;
-          margin-right: 60px;
-        }
-
-        #aboutq, #positionq {
-          font-size: 18px;
-        }
-
-        .alignL{
-          font-size: 18px;
-          display: inline-block;
-          width:40%;
-          text-align:right;
-        }
-
-
-        /*FORM END*/
-
-      }
