@@ -443,7 +443,7 @@ Format:
 #### Participant 2
 
 1. Who is your participant, e.g., what is their name, where do they comes from, what is their job, characteristics, etc.?
-Brian Guo is a 1st year graduate student in Johnson at Cornell. They are from New Jersey and have played volleyball for fun all of their life. While they mostly play intramural beach volleyball, Brian is interested in joining the indoor team in the spring.
+Brian Guo is a 1st year graduate student in Johnson at Cornell. He is from New Jersey and has played volleyball for fun all of his life. While he mostly plays intramural beach volleyball, Brian is interested in joining the indoor team in the spring.
 
 2. Does your participant belong to your target audience of the site? (Yes / No)
 
