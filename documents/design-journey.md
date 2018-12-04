@@ -522,7 +522,7 @@ Yes.
 #### Participant 3
 
 1. Who is your participant, e.g., what is their name, where do they comes from, what is their job, characteristics, etc.?
-Eliza Christman-Cohen is a junior at Cornell University studying Earth and Environmental Sciences. She's from NYC from an upper-class family and played volleyball in high school.
+Eliza Christman-Cohen is a junior at Cornell University studying Earth and Environmental Sciences. She's from NYC from an upper-class family and played volleyball in high school. She is thinking about trying to manage the varsity or one of the club teams.
 
 2. Does your participant belong to your target audience of the site? (Yes / No)
 
