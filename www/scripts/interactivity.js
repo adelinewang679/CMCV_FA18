@@ -54,12 +54,12 @@ $(document).ready(function() {
     $("nav").hide();
   }
 
-$( window ).resize(function() {
-  if ($("#mobilemenu").css("display") != "none"){
-    $("nav").hide();
-  } else $("nav").show();
-  windowratio = ($(window).width()-268)/$(window).height();
-});
+  $( window ).resize(function() {
+    if ($("#mobilemenu").css("display") != "none"){
+      $("nav").hide();
+    } else $("nav").show();
+    windowratio = ($(window).width()-268)/$(window).height();
+  });
 
 
   $("#mobilemenu").click(function () {
@@ -89,7 +89,7 @@ $( window ).resize(function() {
       }
       // alert (imgratio);
       $(document).scrollTop($("#largeImgContainer").offset().top);
-   }
+    }
   });
 
   $("#largeImg").click(function () {
@@ -100,7 +100,7 @@ $( window ).resize(function() {
   function moveleft() {
     if(imgpointer.prev().attr("src")==undefined) {
       if (imgpointer.parent().prev().children("img:last").attr("src") != undefined)
-        imgpointer = imgpointer.parent().prev().children("img:last");
+      imgpointer = imgpointer.parent().prev().children("img:last");
       // alert(imgpointer.attr("src"));
     }else {
       imgpointer = imgpointer.prev()
@@ -111,7 +111,7 @@ $( window ).resize(function() {
   function moveright() {
     if(imgpointer.next().attr("src")==undefined) {
       if (imgpointer.parent().next().children("img:first").attr("src") != undefined)
-        imgpointer = imgpointer.parent().next().children("img:first");
+      imgpointer = imgpointer.parent().next().children("img:first");
       // alert(imgpointer.attr("src"));
     }else {
       imgpointer = imgpointer.next()
@@ -135,7 +135,7 @@ $( window ).resize(function() {
   });
 
   //This is the interactivity for player titles
- //Captains
+  //Captains
   $("#player1").mouseover(function(){
     // $(".title1").removeClass("hidden");
     $(".title1").slideDown("fast");
@@ -154,7 +154,7 @@ $( window ).resize(function() {
     $(".title2").slideUp("fast");
   });
 
-//President
+  //President
   $("#player3").mouseover(function(){
     // $(".title3").removeClass("hidden");
     $(".title3").slideDown("fast");
@@ -165,14 +165,14 @@ $( window ).resize(function() {
   });
 
   // Vice President
-    $("#player4").mouseover(function(){
-      // $(".title4").removeClass("hidden");
-      $(".title4").slideDown("fast");
-    });
-    $("#player4").mouseout(function(){
-      // $(".title4").addClass("hidden");
-      $(".title4").slideUp("fast");
-    });
+  $("#player4").mouseover(function(){
+    // $(".title4").removeClass("hidden");
+    $(".title4").slideDown("fast");
+  });
+  $("#player4").mouseout(function(){
+    // $(".title4").addClass("hidden");
+    $(".title4").slideUp("fast");
+  });
 
 
 

@@ -12,11 +12,8 @@ header {
   display: flex;
   flex-direction: column;
   /** Header Image Source: http://www.eldonlindsayphotography.com/blog/2018/9/2/labor-day-weekend-recap-cornell-sports **/
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.55),
-      rgba(0, 0, 0, 0.3)
-    ),url("../images/test2.jpg");
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.3)
+  ),url("../images/test2.jpg");
   background-position:50% 20%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -550,397 +547,397 @@ footer p {
     display:flex;
     flex-direction: column;
     background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.15)
+      ),url("../images/test2.jpg");
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40%;
+    }
+
+    #header_citation a{
+      font-size:5pt;
+    }
+
+    #mobilemenu {
+      position:absolute;
+      z-index:200;
+      padding: 5px 7px;
+      font-size: 20px;
+      color: white;
+      display: block;
+      align-self: flex-start;
+    }
+
+    h1 {
+      border:none;
+      background-color:rgba(0,0,0,0);
+      color: white;
+      padding: 5% 5% 15% 5%;
+      text-align: center;
+    }
+
+    .logo {
+      padding: 20px;
+    }
+
+    nav{
+      z-index:100;
+      /* display: none; */
+      position: fixed;
+      background-color: #9c2020;
+      top: 0;
+      left: 0;
+      height: 100%;
+      padding: 50px 100px 30px 30px;
+    }
+
+    .menu {
+      display: block;
+      margin: 40px 20px;
+      font-size: 20px;
+    }
+
+    nav a{
+      border: none;
+      text-align: left;
+    }
+    /* HEADER END */
+
+    /* ROSTER PAGE */
+    .threeProfs{
+      flex-wrap: wrap;
+      margin: 3%;
+    }
+    #allProfs{
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 30px;
+    }
+    .prof1 , .prof2 , .prof3{
+      margin: 20px;
+      text-align: center;
+      width: 90%;
+    }
+
+    .prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
+      font-size: 0.92em;
+    }
+
+    .prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
+      font-size: 1.2em;
+    }
+
+    /*ROSTER END*/
+
+    /*SCHEDULE START*/
+    #schedule18, #schedule19 {
+      display: block;
+      margin: 0 10% 20px 10%;
+    }
+
+    #tournament18, #tournament19 {
+      display: block;
+      width:100%;
+      margin-bottom: 10px;
+    }
+
+    #practice18 p, #practice19 p{
+      margin-top: 10px;
+    }
+
+    /*SCHEDULE END*/
+
+    /*NEWS START*/
+    .timeline::after {
+      left: 10%;
+    }
+
+    .container {
+      width: 100%;
+      padding-left: 10%;
+      padding-right: 0;
+    }
+
+    .right {
+      left:0;
+    }
+
+    .left::after, .right::after {
+      left: 5%;
+    }
+    /*NEWS END*/
+
+    /* GALLERY START */
+    #gallerybox {
+      margin: 30px auto;
+    }
+
+    .img_column {
+      flex: 100%;
+      padding: 0 7px;
+    }
+    /* GALLERY END */
+
+    /*FORM START*/
+    form {
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+    }
+    textarea{
+      width: 90%;
+    }
+
+    button{
+      margin-bottom: 30px;
+    }
+
+    label {
+      font-size: 20px;
+    }
+
+    .alignL, #positionq{
+      font-size: 16px;
+      display: block;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    #positions_block{
+      display: block;
+      text-align: center;
+    }
+
+    #position_Options{
+      text-align: left;
+    }
+
+    .pOption{
+      font-size: 16px;
+      margin-bottom: 3px;
+    }
+
+    #formIntro, #formWelcome {
+      font-size: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    #aboutq, #positionq {
+      font-size: 16px;
+    }
+
+    /*FORM END*/
+
+    /*INDEX START*/
+    #aboutGroup{
+      flex-wrap: wrap;
+      margin-top: 40px;
+      width: 80%;
+    }
+    #aboutImgContainer{
+      flex: 80%;
+    }
+    #about_description_group{
+      flex: 80%;
+      margin-top: 40px;
+      padding: 0;
+    }
+
+    #about_description_group p{
+      font-size: 16px;
+    }
+
+    /*INDEX END*/
+  }
+
+  @media(min-width: 600px) and (max-width: 900px){
+
+    body,html{
+      overflow-x: hidden;
+    }
+
+    /* HEADER START */
+    header {
+      display:flex;
+      flex-direction: column;
+      background-image: linear-gradient(
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.15)
-      ),url("../images/test2.jpg");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40%;
-  }
-
-  #header_citation a{
-    font-size:5pt;
-  }
-
-  #mobilemenu {
-    position:absolute;
-    z-index:200;
-    padding: 5px 7px;
-    font-size: 20px;
-    color: white;
-    display: block;
-    align-self: flex-start;
-  }
-
-  h1 {
-    border:none;
-    background-color:rgba(0,0,0,0);
-    color: white;
-    padding: 5% 5% 15% 5%;
-    text-align: center;
-  }
-
-  .logo {
-    padding: 20px;
-  }
-
-  nav{
-    z-index:100;
-    /* display: none; */
-    position: fixed;
-    background-color: #9c2020;
-    top: 0;
-    left: 0;
-    height: 100%;
-    padding: 50px 100px 30px 30px;
-  }
-
-  .menu {
-    display: block;
-    margin: 40px 20px;
-    font-size: 20px;
-  }
-
-  nav a{
-    border: none;
-    text-align: left;
-  }
-  /* HEADER END */
-
-  /* ROSTER PAGE */
-  .threeProfs{
-    flex-wrap: wrap;
-    margin: 3%;
-  }
-  #allProfs{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 30px;
-  }
-  .prof1 , .prof2 , .prof3{
-    margin: 20px;
-    text-align: center;
-    width: 90%;
-  }
-
-  .prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
-    font-size: 0.92em;
-  }
-
-  .prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
-    font-size: 1.2em;
-  }
-
-  /*ROSTER END*/
-
-  /*SCHEDULE START*/
-  #schedule18, #schedule19 {
-    display: block;
-    margin: 0 10% 20px 10%;
-  }
-
-  #tournament18, #tournament19 {
-    display: block;
-    width:100%;
-    margin-bottom: 10px;
-  }
-
-  #practice18 p, #practice19 p{
-    margin-top: 10px;
-  }
-
-  /*SCHEDULE END*/
-
-  /*NEWS START*/
-  .timeline::after {
-    left: 10%;
-  }
-
-  .container {
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 0;
-  }
-
-  .right {
-    left:0;
-  }
-
-  .left::after, .right::after {
-    left: 5%;
-  }
-  /*NEWS END*/
-
-  /* GALLERY START */
-  #gallerybox {
-    margin: 30px auto;
-  }
-
-  .img_column {
-    flex: 100%;
-    padding: 0 7px;
-  }
-  /* GALLERY END */
-
-  /*FORM START*/
-  form {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-  }
-  textarea{
-    width: 90%;
-  }
-
-  button{
-    margin-bottom: 30px;
-  }
-
-  label {
-    font-size: 20px;
-  }
-
-  .alignL, #positionq{
-    font-size: 16px;
-    display: block;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  #positions_block{
-    display: block;
-    text-align: center;
-  }
-
-  #position_Options{
-    text-align: left;
-  }
-
-  .pOption{
-    font-size: 16px;
-    margin-bottom: 3px;
-  }
-
-  #formIntro, #formWelcome {
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  #aboutq, #positionq {
-    font-size: 16px;
-  }
-
-  /*FORM END*/
-
-  /*INDEX START*/
-  #aboutGroup{
-    flex-wrap: wrap;
-    margin-top: 40px;
-    width: 80%;
-  }
-  #aboutImgContainer{
-    flex: 80%;
-  }
-  #about_description_group{
-    flex: 80%;
-    margin-top: 40px;
-    padding: 0;
-  }
-
-  #about_description_group p{
-    font-size: 16px;
-  }
-
-  /*INDEX END*/
-}
-
-@media(min-width: 600px) and (max-width: 900px){
-
-  body,html{
-    overflow-x: hidden;
-  }
-
-  /* HEADER START */
-  header {
-    display:flex;
-    flex-direction: column;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.15)
-      ),url("../images/test2.jpg");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40%;
-  }
-
-  #header_citation a{
-    font-size:7pt;
-  }
-
-  #mobilemenu {
-    position:absolute;
-    z-index:200;
-    padding: 5px 10px;
-    font-size: 30px;
-    color: white;
-    display: block;
-    align-self: flex-start;
-  }
-
-  h1 {
-    border:none;
-    /* background-color:rgba(0,0,0,0); */
-    color: white;
-    padding: 10% 5% 15% 5%;
-    text-align: center;
-  }
-
-  .logo {
-    padding: 20px;
-  }
-
-  nav{
-    z-index:100;
-    display: none;
-    position: fixed;
-    background-color: #9c2020;
-    top: 0;
-    left: 0;
-    height: 100%;
-    padding: 50px 100px 30px 30px;
-  }
-
-  .menu {
-    display: block;
-    margin: 40px 20px;
-    font-size: 20px;
-  }
-
-  nav a{
-    border: none;
-    text-align: left;
-  }
-  /* HEADER END */
-
-  /* ABOUT START */
-  #aboutGroup{
-    flex-wrap: wrap;
-    margin-top: 40px;
-    width: 80%;
-  }
-  #aboutImgContainer{
-    flex: 80%;
-  }
-  #about_description_group{
-    flex: 80%;
-    margin-top: 40px;
-    padding: 0;
- }
-
-  /* ABOUT END */
-
-  /* ROSTER PAGE */
-  .threeProfs{
-    margin-left:20px;
-    margin-right: 20px;
-  }
-
-  #allProfs{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 30px;
-  }
-
-  .prof1 , .prof2 , .prof3{
-    margin: 20px;
-    text-align: center;
-    width: 30%;
-  }
-
-  .prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
-    display: block;
-    border-right: none;
-    font-size: 0.84em;
-  }
-
-  .prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
-    font-size: 1.1em;
-  }
-
-
-  /*ROSTER END*/
-
-  /* SCHEDULE START */
-  #schedule18, #schedule19 {
-    margin: 30px 4% 40px 5%;
-  }
-  /* SCHEDULE END */
-
-  /*NEWS START*/
-  .timeline::after {
-    left: 10%;
-  }
-
-  .container {
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 0;
-  }
-
-  .right {
-    left:0;
-  }
-
-  .left::after, .right::after {
-    left: 5%;
-  }
-
-  /*NEWS END*/
-
-  /* GALLERY START */
-
-  #largeImgContainer {
-    margin: 50px 30px;
-  }
-
-  .img_column {
-    flex: 40%;
-  }
-  /* GALLERY END */
-
-  /*FORM START*/
-  button{
-    margin-bottom: 35px;
-  }
-
-  textarea{
-    width: 70%;
-  }
-
-  #formIntro, #formWelcome {
-    font-size: 25px;
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-
-  #aboutq, #positionq {
-    font-size: 18px;
-  }
-
-  .alignL{
-    font-size: 18px;
-    display: inline-block;
-    width:40%;
-    text-align:right;
-  }
-
-
-  /*FORM END*/
-
-}
+        ),url("../images/test2.jpg");
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40%;
+      }
+
+      #header_citation a{
+        font-size:7pt;
+      }
+
+      #mobilemenu {
+        position:absolute;
+        z-index:200;
+        padding: 5px 10px;
+        font-size: 30px;
+        color: white;
+        display: block;
+        align-self: flex-start;
+      }
+
+      h1 {
+        border:none;
+        /* background-color:rgba(0,0,0,0); */
+        color: white;
+        padding: 10% 5% 15% 5%;
+        text-align: center;
+      }
+
+      .logo {
+        padding: 20px;
+      }
+
+      nav{
+        z-index:100;
+        display: none;
+        position: fixed;
+        background-color: #9c2020;
+        top: 0;
+        left: 0;
+        height: 100%;
+        padding: 50px 100px 30px 30px;
+      }
+
+      .menu {
+        display: block;
+        margin: 40px 20px;
+        font-size: 20px;
+      }
+
+      nav a{
+        border: none;
+        text-align: left;
+      }
+      /* HEADER END */
+
+      /* ABOUT START */
+      #aboutGroup{
+        flex-wrap: wrap;
+        margin-top: 40px;
+        width: 80%;
+      }
+      #aboutImgContainer{
+        flex: 80%;
+      }
+      #about_description_group{
+        flex: 80%;
+        margin-top: 40px;
+        padding: 0;
+      }
+
+      /* ABOUT END */
+
+      /* ROSTER PAGE */
+      .threeProfs{
+        margin-left:20px;
+        margin-right: 20px;
+      }
+
+      #allProfs{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px;
+      }
+
+      .prof1 , .prof2 , .prof3{
+        margin: 20px;
+        text-align: center;
+        width: 30%;
+      }
+
+      .prof1 dl dt, .prof2 dl dt, .prof3 dl dt{
+        display: block;
+        border-right: none;
+        font-size: 0.84em;
+      }
+
+      .prof1 dl dt:first-child, .prof2 dl dt:first-child, .prof3 dl dt:first-child{
+        font-size: 1.1em;
+      }
+
+
+      /*ROSTER END*/
+
+      /* SCHEDULE START */
+      #schedule18, #schedule19 {
+        margin: 30px 4% 40px 5%;
+      }
+      /* SCHEDULE END */
+
+      /*NEWS START*/
+      .timeline::after {
+        left: 10%;
+      }
+
+      .container {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 0;
+      }
+
+      .right {
+        left:0;
+      }
+
+      .left::after, .right::after {
+        left: 5%;
+      }
+
+      /*NEWS END*/
+
+      /* GALLERY START */
+
+      #largeImgContainer {
+        margin: 50px 30px;
+      }
+
+      .img_column {
+        flex: 40%;
+      }
+      /* GALLERY END */
+
+      /*FORM START*/
+      button{
+        margin-bottom: 35px;
+      }
+
+      textarea{
+        width: 70%;
+      }
+
+      #formIntro, #formWelcome {
+        font-size: 25px;
+        margin-left: 60px;
+        margin-right: 60px;
+      }
+
+      #aboutq, #positionq {
+        font-size: 18px;
+      }
+
+      .alignL{
+        font-size: 18px;
+        display: inline-block;
+        width:40%;
+        text-align:right;
+      }
+
+
+      /*FORM END*/
+
+    }
