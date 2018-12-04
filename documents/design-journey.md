@@ -262,7 +262,7 @@ For our roster, when the user hovers over a photo of a member, the position of t
 [Write your interactivity pseudocode here. Remember you must use two conditional statements.]
 
 *Interest Form pseudocode**
-
+```
 if name is filled out, check to see if it's valid
   if not valid, provide feedback message "Please provide name"
 
@@ -280,14 +280,47 @@ If message is filled out, check to see if it's valid
 
 Are all the required fields filled out after pressing submit?
   If yes, email form to client
+```
 
 *nav pseuocode*
+```
 If tab on nav bar is clicked
   highlight tab
+```
 
 *roster psuedocode*
+```
 if mouse is over roster picture
   show positions
+  ```
+
+*gallery pseudocode*
+```
+if cursor hovers over image block
+  display a opacity filter over the select image
+if mouse clicks on the image
+  if the image is wider than the space available
+    scale the image so that it fits horizontally
+  else
+    scale the image so that it fits vertically
+  display the scaled image at the top of the page
+  move the window position to the larger-scale image
+if mouse clicks on left arrow
+  change the displayed image to the one before
+  rescale the image
+if mouse clicks on right Arrow
+  change the displayed image to the next one
+  rescale the image
+```
+
+*mobile version menu pseudocode*
+```
+if user clicks(touches) the menu icon
+  if menu bar is not displayed
+    display the menu bar from the left
+  if menu bar is displayed
+    hide the menu bar to the left
+```
 
 Example:
 ```
@@ -296,18 +329,7 @@ if today is a monday:
 
 ```
 
-*gallery pseudocode*
-if cursor hovers over image block
-  display a border around the select image
-if cursor clicks on the image
-  display the image in full size as a popup
 
-*mobile version menu pseudocode*
-if user clicks(touches) the menu icon
-  if menu bar is not displayed
-    display the menu bar from the left
-  if menu bar is displayed
-    hide the menu bar to the left
 
 ### Tasks (Milestone 2)
 
@@ -341,13 +363,19 @@ We will
 
 [If you feel like you haven't fully explained your design choices, or if you want to explain some other functions in your site (such as special design decisions that might not meet the Project 4 requirements), you can use this space to justify your design choices or ask other questions about the project and process.]
 
-
 ## Milestone 3: Presentation & Demo Ready Draft
 
 ### Additional Comments (Milestone 3)
 
 [If you feel like you haven't fully explained your design choices, or if you want to explain some other functions in your site (such as special design decisions that might not meet the Project 4 requirements), you can use this space to justify your design choices or ask other questions about the project and process.]
 
+For a large part of the interactivity implementation, I used the JQuery API Documentation to find the additional functions I needed as well as the css reference for the positioning of some elements.
+
+For our roster interactivity, we changed the way the title blocks pop up when the mouse hovers certain pictures using the slideUp and slideDown functions to provide a smoother interaction.
+
+One of our key addition to the interactivity is the gallery image close-up. The user can now click on an image to take a look at the selected image on a larger scale and move back and forth using the arrow buttons. In order to display the image in a largest size as possible while it fits within the window, we calculate the ratio of the available space relative to the screen size and compare it with the selected image's ratio. Then if the image is wider than the screen it will scale so that it fits the space horizontally and if not, vertically. We also made sure that the arrow buttons allow the user to go through all the pictures displayed in the gallery until the first or the last picture by traversing the parent/child elements.
+
+Also for our mobile version interactivity, we made the navigation bar hidden and made it pop up as a mobile menu on the left side when the menu icon is selected. We used position-related attributes in CSS to make the menu visible over the page contents.
 
 ## Final Submission: Complete, Polished, and User Tested Website
 
@@ -355,7 +383,11 @@ We will
 
 [What changes did you make to your plan or design based on your peers' feedback?]
 
-We changed the about page because the feedback said it was not good design. The image was too big and the text was too small.
+We changed the about page because the feedback said it was not an effective design to have such a large image with short text. We placed the image and text block side by side so that the user can access the text info without having to scroll down through the image.
+
+We also made an overall change to the general layout of the site including the header and the subtitles. Along with the feedbacks on our navigation bar, we felt that our original design was not effective in terms of visibility of the texts off the background image. It also included some details, such as border boxes, that did not add to the general atmosphere of the client's site. So we used a gradient filter to tone down the background image's saturation to make the texts more readable as well as using text shadow to highlight the title of the site. We also got rid of the boxes in the navigation bar and the subtitles which seems to have made the site look much cleaner.
+
+Some feedbacks also pointed out that the interactivity in our site might be a little lacking. In order to make sure that we have a solid interactivity, we added key bindings to the gallery, so now the user can use the keyboard's arrow keys in the image close-up mode to go back and forth through other pictures.
 
 ### User Testing (Final Submission)
 
@@ -609,24 +641,31 @@ Once the client sends us updated articles (if they do at a later point in time),
 
 [Describe in some detail what the client will do (or would have to do) in order to make this website go live. What is the deployment plan?]
 
-The deployment plan is to have the client purchase the 7$ per month web hosting package with Sendgrid add-on for Heroku which is free for the first 12000 mails. However, since they haven't decided upon this yet, we are temporarily using a placeholder php page linked to the form. If they want to use the Sendgrid plan, we will let them know how to set up the account with them, change the php file so that the receiving email address is set, and register the domain through it as well. 
+The deployment plan is to have the client purchase the 7$ per month web hosting package with Sendgrid add-on for Heroku which is free for the first 12000 mails. However, since they haven't decided upon this yet, we are temporarily using a placeholder php page linked to the form. If they want to use the Sendgrid plan, we will let them know how to set things up. The detailed plan is as following.
+
+1. Make an account at Heroku and enter the credit card information.
+2. Link the page files to the Heroku account and deploy them. Contact our team members for assistance, because it will require using console commands for Git.
+3. Once the site is deployed, open the "submitAndEmailSendGrid.php" file and change the top four variables which will be marked with "TODO" when you receive it. Read each comment above the variables and change the values to the page you want your form to redirect to, the email addresses for receiving/sending, etc. Do not change anything else. Save and deploy the website again using the command "git push heroku master" on the console.
+4. After you finish all the steps above, try submitting a form and check that the email redirection works. You might have to wait a few minutes for the emails to arrive. If they do not, contact our team members for further assistance.
 
 [Include any other information that your client needs to know about your final website design. For example, what client wants or needs were unable to be realized in your final product? Why were you unable to meet those wants/needs?]
 
-We have discussed with the client and let them know that all of their design needs and requests were met.
+We have discussed with the client and let them know that all of their design needs and requests were met. In order to add additional content to the site, they do have to edit the html files directly as of now, but we can provide assistance for how to do so by simply referring to the parts of the existing code, especially for schedule/news/gallery which might be updated regularly.
 
 ### Final Notes to the Graders (Final Submission)
 
 [1. Give us three specific strengths of your site that sets it apart from the previous website of the client (if applicable) and/or from other websites. Think of this as your chance to argue for the things you did really well.]
 
-1) We have more contents. Compared to the original website, ours has a lot more photos and we even have a gallery page for them. We have a schedule page so that interested personnel would gauge how much time and workload they should expect, a roster page which helps target audiences to get familiar with the team, a contact us page that keeps audiences in touch with the team in case they have questions. We came up with all contents for our website to better serve our client and target audiences.
+1) We present more contents effectively on fully functional pages. Compared to the original website, our site is more visually dynamic, using images to portray the atmosphere of the client's group. Their original calendar page could not be accessed which we replaced with a schedule page, so that interested personnel would gauge how much time and workload they should expect. We added roster page which helps target audiences to get familiar with the team and a contact us page, replacing the form page which was also inaccessible, that keeps audiences in touch with the team in case they have questions. We redesigned the news page so that it is not just a single block of text but an informative page that allows the users to easily look for the news they are interested in. Our new gallery layout can display multiple images effectively as well as providing a close-up view of each photo. We came up with these original designs for our website to better serve our client and target audiences.
 
-2) Our interactivity is strong and user-friendly. The gallery now displays plenty of photos, and when the user clicks on it, they will be able to navigate between every picture on the gallery using the on-screen buttons or the keyboard arrow keys. Also when they hover over the first three members on the roster page, a red bar with their title will appear showing their titles such as president/captain. That catches the user's attention and they don't have to look through the whole page to find that information. Our form also guarantees that the information submitted are in valid format.
+2) Our interactivity is strong and user-friendly. The gallery now displays photos in multiple columns, responsive to the device screen size. For the users' convenience, we also made sure that they can look at the individual images on a larger scale and that they can navigate between every picture on the gallery using the on-screen buttons or the keyboard arrow keys. Also when they hover over the first three members on the roster page, a red bar with their title will appear showing their titles such as president/captain. That catches the user's attention and they don't have to look through the whole page to find that information. Our form also guarantees that the information submitted are in valid format, displaying messages explicitly for the fields with invalid inputs.
 
-3) We have visually appealing design and it's responsive to PC, tablet and mobile versions. Before the website was mainly functional, but now we added background images, carefully chose fonts, consistent color theme(Go Big Red!), a timeline for news instead of just blocks of text, a stylish form which gives proper feedback, and an amazing gallery. Our side menu bar for tablet and mobile is amazing! It allows our users to navigate through different pages effortlessly even though they have a smaller screen.
+3) Our website is responsive to PC, tablet and mobile versions, convenient for users accessing the page from all devices. Before the website was partially functional only for PC. We made sure that all our designs look well-organized not just on PC but on tablet and mobile versions as well by adjusting the contents of the pages so that they are aligned on a few columns or a single column. We also used a menu icon to access the menu for tablet and mobile versions, since using default navigation bar would not only look awkward but would also take up a lot of space on smaller devices, pushing the important contents off the screen. This mobile-friendly design allows our users to navigate all the pages and use all the functionalities on most of the devices.
 
 [2. Tell us about things that don't work, what you wanted to implement, or what you would do if you keep working with the client in the future. Give justifications.]
 
-We would update all of their roster information, schedules, and news every semester.
+Roster information, schedule, news, and gallery include contents that the client may want to update every now and then. We would provide assistance in doing so either by uploading the new contents ourselves or giving them a manual on how to do so. It would also help if we could write scripts that help the process, for example, make the gallery load all of the images in a certain folder.
 
 [3. Tell us anything else you need us to know for when we're looking at the project.]
+
+We used some functionalities of JQuery and CSS that were not covered in the course materials by reading through the JQuery API Documentation and CSS reference.
