@@ -603,12 +603,8 @@ Yes
 
 We added asterisks to the form to indicate which fields were required because users who wanted to ask a question about the team but do not actually play volleyball would not have a position and it wasn't clear that the field was not required.
 
-<<<<<<< HEAD
-Once the client sends us updated articles (if they do at a later point in time), we can update the news timeline to include how the team did at nationals in an article. 
-=======
-Once the client sends us updated articles (if they do),
->>>>>>> 940b15da060c394070b1e27be5b16018e3d81a84
-
+Once the client sends us updated articles (if they do at a later point in time), we can update the news timeline to include how the team did at nationals in an article.
+s
 ### Final Notes to the Clients (Final Submission)
 
 [Describe in some detail what the client will do (or would have to do) in order to make this website go live. What is the deployment plan?]
