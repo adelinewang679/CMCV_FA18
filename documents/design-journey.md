@@ -204,6 +204,19 @@ Gallery
 
 Tablet:
 
+Home(About)
+![](finalsketch_tablet_about.jpg)
+Roster
+![](finalsketch_tablet_roster.jpg)
+Schedule
+![](finalsketch_tablet_schedule.jpg)
+News
+![](finalsketch_tablet_news.jpg)
+Contact Us
+![](finalsketch_tablet_contactus.jpg)
+Gallery
+![](finalsketch_tablet_gallery.jpg)
+
 Mobile:
 
 About
