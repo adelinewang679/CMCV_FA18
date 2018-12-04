@@ -603,7 +603,11 @@ Yes
 
 We added asterisks to the form to indicate which fields were required because users who wanted to ask a question about the team but do not actually play volleyball would not have a position and it wasn't clear that the field was not required.
 
+<<<<<<< HEAD
 Once the client sends us updated articles (if they do at a later point in time), we can update the news timeline to include how the team did at nationals in an article. 
+=======
+Once the client sends us updated articles (if they do),
+>>>>>>> 940b15da060c394070b1e27be5b16018e3d81a84
 
 ### Final Notes to the Clients (Final Submission)
 
@@ -614,6 +618,12 @@ Once the client sends us updated articles (if they do at a later point in time),
 ### Final Notes to the Graders (Final Submission)
 
 [1. Give us three specific strengths of your site that sets it apart from the previous website of the client (if applicable) and/or from other websites. Think of this as your chance to argue for the things you did really well.]
+
+1) We have more contents. Compared to the original website, ours has a lot more photos and we even have a gallery page for them. We have a schedule page so that interested personnel would gauge how much time and workload they should expect, a roster page which helps target audiences to get familiar with the team, a contact us page that keeps audiences in touch with the team in case they have questions.
+
+2) Our interactivity is strong and user-friendly. The gallery now displays plenty of photos, and when the user clicks on it, they will be able to navigate between different pictures. Also when they hover over the first three members on the roster page, a red bar with their title will appear because they are the president/captains. That catches the user's attention and they don't have to look through the whole page to find that information.
+
+3) We have visually appealing design. Before the website was mainly functional, but now we added background images, carefully chose fonts, consistent color theme(Go Big Red!), a timeline for news instead of just blocks of text, a stylish form which gives proper feedback, and an amazing gallery.
 
 [2. Tell us about things that don't work, what you wanted to implement, or what you would do if you keep working with the client in the future. Give justifications.]
 
