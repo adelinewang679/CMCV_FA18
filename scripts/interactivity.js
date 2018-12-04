@@ -48,7 +48,7 @@ $(document).ready(function() {
 
 
   //MOBILE MENU INTERACTIVITY
-  var windowratio = $(window).width()/$(window).height();
+  var windowratio = ($(window).width()-268)/$(window).height();
 
   if ($("#mobilemenu").css("display") != "none"){
     $("nav").hide();
