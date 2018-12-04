@@ -615,12 +615,14 @@ Once the client sends us updated articles (if they do),
 
 [1. Give us three specific strengths of your site that sets it apart from the previous website of the client (if applicable) and/or from other websites. Think of this as your chance to argue for the things you did really well.]
 
-1) We have more contents. Compared to the original website, ours has a lot more photos and we even have a gallery page for them. We have a schedule page so that interested personnel would gauge how much time and workload they should expect, a roster page which helps target audiences to get familiar with the team, a contact us page that keeps audiences in touch with the team in case they have questions.
+1) We have more contents. Compared to the original website, ours has a lot more photos and we even have a gallery page for them. We have a schedule page so that interested personnel would gauge how much time and workload they should expect, a roster page which helps target audiences to get familiar with the team, a contact us page that keeps audiences in touch with the team in case they have questions. We came up with all contents for our website to better serve our client and target audiences.
 
 2) Our interactivity is strong and user-friendly. The gallery now displays plenty of photos, and when the user clicks on it, they will be able to navigate between different pictures. Also when they hover over the first three members on the roster page, a red bar with their title will appear because they are the president/captains. That catches the user's attention and they don't have to look through the whole page to find that information.
 
-3) We have visually appealing design. Before the website was mainly functional, but now we added background images, carefully chose fonts, consistent color theme(Go Big Red!), a timeline for news instead of just blocks of text, a stylish form which gives proper feedback, and an amazing gallery.
+3) We have visually appealing design and it's responsive to PC, tablet and mobile versions. Before the website was mainly functional, but now we added background images, carefully chose fonts, consistent color theme(Go Big Red!), a timeline for news instead of just blocks of text, a stylish form which gives proper feedback, and an amazing gallery. Our side menu bar for tablet and mobile is amazing! It allows our users to navigate through different pages effortlessly even though they have a smaller screen.
 
 [2. Tell us about things that don't work, what you wanted to implement, or what you would do if you keep working with the client in the future. Give justifications.]
+
+We would update all of their roster information, schedules, and news every semester.
 
 [3. Tell us anything else you need us to know for when we're looking at the project.]
