@@ -557,7 +557,7 @@ Yes
     - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
       - User said they liked the form.
     - **Your reflections about the user’s performance to the task**
-      - User filled out form efficienctly
+      - User filled out form efficiently
     - **Re-design choices**
       - Indicate which fields are required. Put asterisks next to the label.
     - **Memo** (Justify your decisions; additional notes.)
@@ -609,11 +609,11 @@ Once the client sends us updated articles (if they do at a later point in time),
 
 [Describe in some detail what the client will do (or would have to do) in order to make this website go live. What is the deployment plan?]
 
-The deployment plan is to have the client purchase the 7$ per month web hosting package with Heroku. We set up the emailing account with them through this site so we think it is best to keep things consistent and register the domain through them as well. We will also add the custom domain name through Heroku.
+The deployment plan is to have the client purchase the 7$ per month web hosting package with Sendgrid add-on for Heroku which is free for the first 12000 mails. However, since they haven't decided upon this yet, we are temporarily using a placeholder php page linked to the form. If they want to use the Sendgrid plan, we will let them know how to set up the account with them, change the php file so that the receiving email address is set, and register the domain through it as well. 
 
 [Include any other information that your client needs to know about your final website design. For example, what client wants or needs were unable to be realized in your final product? Why were you unable to meet those wants/needs?]
 
-We have discussed with the client and let them know that all of their design needs and requests were met. 
+We have discussed with the client and let them know that all of their design needs and requests were met.
 
 ### Final Notes to the Graders (Final Submission)
 
@@ -621,7 +621,7 @@ We have discussed with the client and let them know that all of their design nee
 
 1) We have more contents. Compared to the original website, ours has a lot more photos and we even have a gallery page for them. We have a schedule page so that interested personnel would gauge how much time and workload they should expect, a roster page which helps target audiences to get familiar with the team, a contact us page that keeps audiences in touch with the team in case they have questions. We came up with all contents for our website to better serve our client and target audiences.
 
-2) Our interactivity is strong and user-friendly. The gallery now displays plenty of photos, and when the user clicks on it, they will be able to navigate between different pictures. Also when they hover over the first three members on the roster page, a red bar with their title will appear because they are the president/captains. That catches the user's attention and they don't have to look through the whole page to find that information.
+2) Our interactivity is strong and user-friendly. The gallery now displays plenty of photos, and when the user clicks on it, they will be able to navigate between every picture on the gallery using the on-screen buttons or the keyboard arrow keys. Also when they hover over the first three members on the roster page, a red bar with their title will appear showing their titles such as president/captain. That catches the user's attention and they don't have to look through the whole page to find that information. Our form also guarantees that the information submitted are in valid format.
 
 3) We have visually appealing design and it's responsive to PC, tablet and mobile versions. Before the website was mainly functional, but now we added background images, carefully chose fonts, consistent color theme(Go Big Red!), a timeline for news instead of just blocks of text, a stylish form which gives proper feedback, and an amazing gallery. Our side menu bar for tablet and mobile is amazing! It allows our users to navigate through different pages effortlessly even though they have a smaller screen.
 
