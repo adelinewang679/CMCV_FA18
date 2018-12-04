@@ -498,7 +498,7 @@ Yes.
   - **Your reflections about the user’s performance to the task**
     - User completed task a little slower than anticipated, but found the info in a reasonable time.
   - **Re-design choices**
-    - None.
+    - When we get updated news articles, we can move or copy the blurb saying how they did last season to the news tab. For the time being, no re-design choices.
   - **Memo** (Justify your decisions; additional notes.)
     - We haven't received updated news articles about the most recent tournaments from our client, so there is not a lot we can do if we wanted to switch location of how they did last season since there isn't a full article about it, just a sentence. Design is intuitive and paragraphs are split up appropriately on about page.
 
@@ -577,9 +577,9 @@ Yes
   - **Your reflections about the user’s performance to the task**
     - User went to the wrong page and did not find the correct information that was on the About page.
   - **Re-design choices**
-    - None.
+    - When we get updated news articles, we can move or copy the blurb saying how they did last season to the news tab. For the time being, no re-design choices.
   - **Memo** (Justify your decisions; additional notes.)
-    - We haven't received updated news articles about the most recent tournaments from our client, so there is not a lot we can do if we wanted to switch location of how they did last season since there isn't a full article about it, just a sentence. Once we get updated articles, we will include those in the timeline instead of the old about description.
+    - We haven't received updated news articles about the most recent tournaments from our client, so there is not a lot we can do if we wanted to switch location of how they did last season since there isn't a full article about it, just a sentence. Once we get updated articles, we will include those in the timeline instead of just in the about page.
 
   [Include evidence of your user testing process.]
   ![](user3Eliza.pdf)
@@ -587,6 +587,10 @@ Yes
 ### Changes Based on User Testing (Final Submission)
 
 [What changes did you make to your plan or design based on user testing?]
+
+We added asterisks to the form to indicate which fields were required because users who wanted to ask a question about the team but do not actually play volleyball would not have a position and it wasn't clear that the field was not required.
+
+Once the client sends us updated articles (if they do), 
 
 ### Final Notes to the Clients (Final Submission)
 
