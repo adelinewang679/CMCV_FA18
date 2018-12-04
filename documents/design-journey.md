@@ -609,7 +609,11 @@ Once the client sends us updated articles (if they do at a later point in time),
 
 [Describe in some detail what the client will do (or would have to do) in order to make this website go live. What is the deployment plan?]
 
+The deployment plan is to have the client purchase the 7$ per month web hosting package with Heroku. We set up the emailing account with them through this site so we think it is best to keep things consistent and register the domain through them as well. We will also add the custom domain name through Heroku.
+
 [Include any other information that your client needs to know about your final website design. For example, what client wants or needs were unable to be realized in your final product? Why were you unable to meet those wants/needs?]
+
+We have discussed with the client and let them know that all of their design needs and requests were met. 
 
 ### Final Notes to the Graders (Final Submission)
 
